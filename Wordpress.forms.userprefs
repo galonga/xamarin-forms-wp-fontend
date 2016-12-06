@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{6BE27B2E-552F-43B2-82D5-058D7F180CEC}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WpApp.Droid PreferredExecutionTarget="Android.9cd477dc" />
+  <MonoDevelop.Ide.ItemProperties.Wp.Android PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WpApp\ViewModels\TwitterViewModel.cs">
+    <Files>
+      <File FileName="WpApp.Android\MainActivity.cs" Line="16" Column="29" />
+      <File FileName="WpApp.Android\WearService.cs" Line="22" Column="42" />
+      <File FileName="WpApp.Android\packages.config" Line="1" Column="1" />
+      <File FileName="WpApp.Android\MainApplication.cs" Line="1" Column="14" />
+      <File FileName="WpApp.Android\app.config" Line="1" Column="1" />
+      <File FileName="WpApp.Android\Renderers\AudioPlayerRenderer.cs" Line="5" Column="21" />
+      <File FileName="WpApp.Android\Renderers\ListImageCellRenderer.cs" Line="17" Column="1" />
+      <File FileName="WpApp.Android\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="WpApp.Android\Properties\AssemblyInfo.cs" Line="12" Column="42" />
+      <File FileName="WpApp.Android\Helpers\Color.cs" Line="59" Column="16" />
+      <File FileName="WpApp.iOS\app.config" Line="1" Column="1" />
+      <File FileName="WpApp.iOS\AppDelegate.cs" Line="12" Column="16" />
+      <File FileName="WpApp.iOS\Entitlements.plist" Line="1" Column="1" />
+      <File FileName="WpApp.iOS\LaunchScreen.storyboard" Line="1" Column="1" />
+      <File FileName="WpApp.iOS\Info.plist" Line="8" Column="26" />
+      <File FileName="WpApp.iOS\Main.cs" Line="8" Column="16" />
+      <File FileName="WpApp.iOS\Renderers\AudioPlayerRenderer.cs" Line="12" Column="1" />
+      <File FileName="WpApp.iOS\Helpers\TweetStore.cs" Line="4" Column="12" />
+      <File FileName="WpApp.iOS\Helpers\LaunchTwitter.cs" Line="3" Column="12" />
+      <File FileName="WpApp.iOS\Helpers\Color.cs" Line="15" Column="55" />
+      <File FileName="WpApp.UWP\App.xaml.cs" Line="18" Column="16" />
+      <File FileName="WpApp.UWP\MainPage.xaml" Line="2" Column="19" />
+      <File FileName="WpApp.UWP\MainPage.xaml.cs" Line="32" Column="6" />
+      <File FileName="WpApp.UWP\Package.appxmanifest" Line="1" Column="1" />
+      <File FileName="WpApp.UWP\project.json" Line="1" Column="1" />
+      <File FileName="WpApp.UWP\Renderers\AudioPlayerRenderer.cs" Line="11" Column="12" />
+      <File FileName="WpApp.UWP\Renderers\ImageCircle.cs" Line="24" Column="3" />
+      <File FileName="WpApp\ViewModels\PodcastViewModel.cs" Line="96" Column="31" />
+      <File FileName="WpApp\ViewModels\TwitterViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Wordpress.forms" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
