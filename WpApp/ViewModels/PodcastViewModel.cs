@@ -19,15 +19,14 @@ namespace WpApp.ViewsModels
         {
             this.item = item;
 
-            switch (item)
-            {
+            switch (item) {
                 case MenuType.Hanselminutes:
                     image = "hm_full.jpg";
                     Title = "Hanselminutes";
                     break;
                 case MenuType.Ratchet:
                     image = "ratchet_full.jpg";
-                    Title= "Ratchet & The Geek";
+                    Title = "Ratchet & The Geek";
                     break;
                 case MenuType.DeveloperLife:
                     image = "tdl_full.jpg";
@@ -42,8 +41,7 @@ namespace WpApp.ViewsModels
         /// <summary>
         /// gets or sets the feed items
         /// </summary>
-        public ObservableCollection<FeedItem> FeedItems
-        {
+        public ObservableCollection<FeedItem> FeedItems {
             get { return feedItems; }
             set { feedItems = value; OnPropertyChanged(); }
         }
@@ -52,11 +50,9 @@ namespace WpApp.ViewsModels
         /// <summary>
         /// Gets or sets the selected feed item
         /// </summary>
-        public FeedItem SelectedFeedItem
-        {
+        public FeedItem SelectedFeedItem {
             get { return selectedFeedItem; }
-            set
-            {
+            set {
                 selectedFeedItem = value;
                 OnPropertyChanged();
             }
@@ -66,8 +62,7 @@ namespace WpApp.ViewsModels
         /// <summary>
         /// Command to load/refresh items
         /// </summary>
-        public Command LoadItemsCommand
-        {
+        public Command LoadItemsCommand {
             get { return loadItemsCommand ?? (loadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand())); }
         }
 
@@ -78,13 +73,11 @@ namespace WpApp.ViewsModels
 
             IsBusy = true;
             var error = false;
-            try
-            {
+            try {
                 var httpClient = new HttpClient();
                 var feed = string.Empty;
 
-                switch (item)
-                {
+                switch (item) {
                     case MenuType.Hanselminutes:
                         feed = "https://www.minmon.de/category/podcast/feed/";
                         break;
@@ -99,18 +92,14 @@ namespace WpApp.ViewsModels
 
                 FeedItems.Clear();
                 var items = await ParseFeed(responseString);
-                foreach (var feedItem in items)
-                {
+                foreach (var feedItem in items) {
                     FeedItems.Add(feedItem);
                 }
-            }
-            catch
-            {
+            } catch {
                 error = true;
             }
 
-            if (error)
-            {
+            if (error) {
                 var page = new ContentPage();
                 var result = page.DisplayAlert("Error", "Unable to load podcast feed.", "OK");
 
@@ -128,15 +117,13 @@ namespace WpApp.ViewsModels
         /// <returns></returns>
         private async Task<List<FeedItem>> ParseFeed(string rss)
         {
-            return await Task.Run(() =>
-            {
+            return await Task.Run(() => {
                 var xdoc = XDocument.Parse(rss);
                 var id = 0;
                 return (from item in xdoc.Descendants("item")
                         let enclosure = item.Element("enclosure")
                         where enclosure != null
-                        select new FeedItem
-                        {
+                        select new FeedItem {
                             Title = (string)item.Element("title"),
                             Description = (string)item.Element("description"),
                             Link = (string)item.Element("link"),

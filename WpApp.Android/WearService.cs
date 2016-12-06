@@ -39,8 +39,7 @@ namespace WpApp.Droid
 
         async void HandleMessage(IMessageEvent message)
         {
-            try
-            {
+            try {
                 Android.Util.Log.Info("WearIntegration", "Received Message");
                 var client = new GoogleApiClient.Builder(this)
                   .AddApi(WearableClass.API)
@@ -52,11 +51,9 @@ namespace WpApp.Droid
 
                 var path = message.Path;
 
-                try
-                {
+                try {
 
-                    if (path.StartsWith(TweetsPath))
-                    {
+                    if (path.StartsWith(TweetsPath)) {
 
                         var viewModel = new TwitterViewModel();
 
@@ -66,8 +63,7 @@ namespace WpApp.Droid
                         var map = request.DataMap;
 
                         var tweetMap = new List<DataMap>();
-                        foreach (var tweet in viewModel.Tweets)
-                        {
+                        foreach (var tweet in viewModel.Tweets) {
                             var itemMap = new DataMap();
 
                             itemMap.PutLong("CreatedAt", tweet.CreatedAt.Ticks);
@@ -81,14 +77,10 @@ namespace WpApp.Droid
 
                         await WearableClass.DataApi.PutDataItem(client, request.AsPutDataRequest());
                     }
-                }
-                finally
-                {
+                } finally {
                     client.Disconnect();
                 }
-            }
-            catch (Exception e)
-            {
+            } catch (Exception e) {
                 Android.Util.Log.Error("WearIntegration", e.ToString());
             }
         }

@@ -9,8 +9,7 @@ namespace WpApp.Views
 
         void OpenBrowser(string url)
         {
-            CrossShare.Current.OpenBrowser(url, new Plugin.Share.Abstractions.BrowserOptions
-            {
+            CrossShare.Current.OpenBrowser(url, new Plugin.Share.Abstractions.BrowserOptions {
                 ChromeShowTitle = true,
                 ChromeToolbarColor = new Plugin.Share.Abstractions.ShareColor { R = 3, G = 169, B = 244, A = 255 },
                 UseSafairReaderMode = true,
@@ -21,25 +20,21 @@ namespace WpApp.Views
         {
             InitializeComponent();
 
-            twitter.GestureRecognizers.Add(new TapGestureRecognizer()
-            {
-                Command = new Command(() =>
-                {
+            twitter.GestureRecognizers.Add(new TapGestureRecognizer() {
+                Command = new Command(() => {
                     //try to launch twitter or tweetbot app, else launch browser
                     var launch = DependencyService.Get<ILaunchTwitter>();
-                    if(launch == null || !launch.OpenUserName("shanselman"))
+                    if (launch == null || !launch.OpenUserName("shanselman"))
                         OpenBrowser("http://m.twitter.com/shanselman");
                 })
             });
 
-            facebook.GestureRecognizers.Add(new TapGestureRecognizer()
-            {
+            facebook.GestureRecognizers.Add(new TapGestureRecognizer() {
                 Command = new Command(() => OpenBrowser("https://m.facebook.com/shanselman"))
             });
 
 
-            instagram.GestureRecognizers.Add(new TapGestureRecognizer()
-            {
+            instagram.GestureRecognizers.Add(new TapGestureRecognizer() {
                 Command = new Command(() => OpenBrowser("https://www.instagram.com/shanselman"))
             });
         }

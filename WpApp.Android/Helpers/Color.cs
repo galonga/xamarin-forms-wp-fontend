@@ -21,8 +21,7 @@ namespace WpApp.Droid.Helpers
         public static Color FromHex(int hex)
         {
             Func<int, int> at = offset => (hex >> offset) & 0xFF;
-            return new Color
-            {
+            return new Color {
                 R = at(16) / 255.0,
                 G = at(8) / 255.0,
                 B = at(0) / 255.0
@@ -57,15 +56,15 @@ namespace WpApp.Droid.Helpers
         }
 
 #if __ANDROID__
-		public global::Android.Graphics.Color ToAndroidColor ()
-		{
-			return global::Android.Graphics.Color.Rgb ((int)(255 * R), (int)(255 * G), (int)(255 * B));
-		}
+        public global::Android.Graphics.Color ToAndroidColor()
+        {
+            return global::Android.Graphics.Color.Rgb((int)(255 * R), (int)(255 * G), (int)(255 * B));
+        }
 
-		public static implicit operator global::Android.Graphics.Color (Color color)
-		{
-			return color.ToAndroidColor ();
-		}
+        public static implicit operator global::Android.Graphics.Color(Color color)
+        {
+            return color.ToAndroidColor();
+        }
 #endif
     }
 }

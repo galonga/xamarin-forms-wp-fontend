@@ -10,7 +10,7 @@ namespace WpApp
 {
     public class App : Application
     {
-        public static bool IsWindows10 {get;set;}
+        public static bool IsWindows10 { get; set; }
         public App()
         {
             // The root page of your application

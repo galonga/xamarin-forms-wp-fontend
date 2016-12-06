@@ -29,8 +29,7 @@ namespace WpApp.Droid.Renderer
             div.SetIntrinsicHeight(1);
             div.Paint.Set(new Paint { Color = Color.FromHex("00FFFFFF").ToAndroid() });
 
-            if (parent is ListView)
-            {
+            if (parent is ListView) {
                 ((ListView)parent).Divider = div;
                 ((ListView)parent).DividerHeight = 1;
             }

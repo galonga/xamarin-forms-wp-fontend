@@ -7,17 +7,15 @@ namespace WpApp.Models
 {
     public class FeedItem : INotifyPropertyChanged
     {
-
-
-
         public string Description { get; set; }
+
         public string Link { get; set; }
+
         private string publishDate;
-        public string PublishDate
-        {
+
+        public string PublishDate {
             get { return publishDate; }
-            set
-            {
+            set {
                 DateTime time;
                 if (DateTime.TryParse(value, out time))
                     publishDate = time.ToLocalTime().ToString("D");
@@ -25,23 +23,26 @@ namespace WpApp.Models
                     publishDate = value;
             }
         }
+
         public string Author { get; set; }
+
         public string AuthorEmail { get; set; }
+
         public int Id { get; set; }
+
         public string CommentCount { get; set; }
+
         public string Category { get; set; }
 
         public string Mp3Url { get; set; }
 
         private string title;
-        public string Title
-        {
-            get
-            {
+
+        public string Title {
+            get {
                 return title;
             }
-            set
-            {
+            set {
                 title = value;
 
             }
@@ -49,10 +50,8 @@ namespace WpApp.Models
 
         private string caption;
 
-        public string Caption
-        {
-            get
-            {
+        public string Caption {
+            get {
                 if (!string.IsNullOrWhiteSpace(caption))
                     return caption;
 
@@ -73,8 +72,7 @@ namespace WpApp.Models
 
         private bool showImage = true;
 
-        public bool ShowImage
-        {
+        public bool ShowImage {
             get { return showImage; }
             set { showImage = value; }
         }
@@ -84,11 +82,9 @@ namespace WpApp.Models
         /// <summary>
         /// When we set the image, mark show image as true
         /// </summary>
-        public string Image
-        {
+        public string Image {
             get { return image; }
-            set
-            {
+            set {
                 image = value;
                 showImage = true;
             }
@@ -96,10 +92,9 @@ namespace WpApp.Models
         }
 
         private string firstImage;
-        public string FirstImage
-        {
-            get
-            {
+
+        public string FirstImage {
+            get {
                 if (!string.IsNullOrWhiteSpace(firstImage))
                     return firstImage;
 
@@ -116,10 +111,8 @@ namespace WpApp.Models
             }
         }
 
-        public ImageSource FirstImageSource
-        {
-            get
-            {
+        public ImageSource FirstImageSource {
+            get {
                 var image = FirstImage;
                 return UriImageSource.FromUri(new Uri(image));
             }
@@ -128,8 +121,8 @@ namespace WpApp.Models
         public string ScottHead { get { return "http://www.hanselman.com/images/photo-scott-tall.jpg"; } }
 
         private decimal progress = 0.0M;
-        public decimal Progress
-        {
+
+        public decimal Progress {
             get { return progress; }
             set { progress = value; OnPropertyChanged("Progress"); }
         }

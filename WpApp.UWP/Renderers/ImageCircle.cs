@@ -48,14 +48,12 @@ namespace ImageCircle.Forms.Plugin.UWP
         protected async override void OnElementPropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             base.OnElementPropertyChanged(sender, e);
-            if (Control != null)
-            {
+            if (Control != null) {
                 var min = Math.Min(Element.Width, Element.Height) / 2.0f;
                 if (min <= 0)
                     return;
 
-                try
-                {
+                try {
 
                     Control.Width = Element.Width;
                     Control.Height = Element.Height;
@@ -72,14 +70,12 @@ namespace ImageCircle.Forms.Plugin.UWP
                     BitmapImage bitmapImage = null;
 
                     // Handle file images
-                    if (Element.Source is FileImageSource)
-                    {
+                    if (Element.Source is FileImageSource) {
                         var fi = Element.Source as FileImageSource;
                         var myFile = System.IO.Path.Combine(Package.Current.InstalledLocation.Path, fi.File);
                         var myFolder = await StorageFolder.GetFolderFromPathAsync(System.IO.Path.GetDirectoryName(myFile));
 
-                        using (Stream s = await myFolder.OpenStreamForReadAsync(System.IO.Path.GetFileName(myFile)))
-                        {
+                        using (Stream s = await myFolder.OpenStreamForReadAsync(System.IO.Path.GetFileName(myFile))) {
                             var memStream = new MemoryStream();
                             await s.CopyToAsync(memStream);
                             memStream.Position = 0;
@@ -95,9 +91,7 @@ namespace ImageCircle.Forms.Plugin.UWP
 
                     if (bitmapImage != null)
                         Control.Fill = new ImageBrush() { ImageSource = bitmapImage, Stretch = Stretch.UniformToFill };
-                }
-                catch
-                {
+                } catch {
                     System.Diagnostics.Debug.WriteLine("Unable to create cicrle image");
                 }
             }

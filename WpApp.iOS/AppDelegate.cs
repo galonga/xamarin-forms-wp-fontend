@@ -27,15 +27,14 @@ namespace WpApp.iOS
         {
             UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB(43, 132, 211); //bar background
             UINavigationBar.Appearance.TintColor = UIColor.White; //Tint color of button items
-            UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes()
-                {
-                    Font = UIFont.FromName("HelveticaNeue-Light", (nfloat)20f),
-                    TextColor = UIColor.White
-                });
+            UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes() {
+                Font = UIFont.FromName("HelveticaNeue-Light", (nfloat)20f),
+                TextColor = UIColor.White
+            });
             Forms.Init();
             ImageCircleRenderer.Init();
             LoadApplication(new App());
-            
+
 
             return base.FinishedLaunching(app, options);
         }

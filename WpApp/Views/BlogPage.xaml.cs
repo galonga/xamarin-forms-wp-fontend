@@ -11,9 +11,7 @@ namespace WpApp.Views
 {
     public partial class BlogPage : ContentPage
     {
-
-        private BlogFeedViewModel ViewModel
-        {
+        private BlogFeedViewModel ViewModel {
             get { return BindingContext as BlogFeedViewModel; }
         }
 
@@ -23,8 +21,7 @@ namespace WpApp.Views
             InitializeComponent();
             BindingContext = new BlogFeedViewModel();
 
-            listView.ItemTapped += (sender, args) =>
-            {
+            listView.ItemTapped += (sender, args) => {
                 if (listView.SelectedItem == null)
                     return;
                 this.Navigation.PushAsync(new BlogDetailsView(listView.SelectedItem as FeedItem));

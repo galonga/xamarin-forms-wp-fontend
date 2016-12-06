@@ -9,15 +9,13 @@ namespace WpApp.Views
 {
     public partial class TwitterPage : ContentPage
     {
-        private TwitterViewModel ViewModel
-        {
+        private TwitterViewModel ViewModel {
             get { return BindingContext as TwitterViewModel; }
         }
 
         void OpenBrowser(string url)
         {
-            CrossShare.Current.OpenBrowser(url, new Plugin.Share.Abstractions.BrowserOptions
-            {
+            CrossShare.Current.OpenBrowser(url, new Plugin.Share.Abstractions.BrowserOptions {
                 ChromeShowTitle = true,
                 ChromeToolbarColor = new Plugin.Share.Abstractions.ShareColor { R = 3, G = 169, B = 244, A = 255 },
                 UseSafairReaderMode = true,
@@ -32,8 +30,7 @@ namespace WpApp.Views
             BindingContext = new TwitterViewModel();
 
 
-            listView.ItemTapped += (sender, args) =>
-            {
+            listView.ItemTapped += (sender, args) => {
                 if (listView.SelectedItem == null)
                     return;
 

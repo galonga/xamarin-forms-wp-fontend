@@ -7,19 +7,16 @@ namespace WpApp.Views
 {
     public partial class PodcastPage : ContentPage
     {
-        private PodcastViewModel ViewModel
-        {
+        private PodcastViewModel ViewModel {
             get { return BindingContext as PodcastViewModel; }
         }
-
 
         public PodcastPage(MenuType item)
         {
             InitializeComponent();
             BindingContext = new PodcastViewModel(item);
 
-            listView.ItemTapped += (sender, args) =>
-            {
+            listView.ItemTapped += (sender, args) => {
                 if (listView.SelectedItem == null)
                     return;
                 this.Navigation.PushAsync(new PodcastPlaybackPage

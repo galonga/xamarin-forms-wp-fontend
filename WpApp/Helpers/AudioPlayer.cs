@@ -19,8 +19,7 @@ namespace WpApp.Helpers
         /// <summary>
         /// Gets or sets the url
         /// </summary>
-        public string Url
-        {
+        public string Url {
             get { return (string)GetValue(UrlProperty); }
             set { SetValue(UrlProperty, value); }
         }
@@ -30,8 +29,7 @@ namespace WpApp.Helpers
           BindableProperty.Create<AudioPlayer, int>(
             p => p.PlaybackState, 0);
 
-        public int PlaybackState
-        {
+        public int PlaybackState {
             get { return (int)GetValue(PlaybackStateProperty); }
             set { SetValue(PlaybackStateProperty, value); }
         }
@@ -41,8 +39,7 @@ namespace WpApp.Helpers
           BindableProperty.Create<AudioPlayer, decimal>(
             p => p.Progress, (decimal)0.0);
 
-        public decimal Progress
-        {
+        public decimal Progress {
             get { return (decimal)GetValue(ProgressProperty); }
             set { SetValue(ProgressProperty, value); }
         }
@@ -51,8 +48,7 @@ namespace WpApp.Helpers
           BindableProperty.Create<AudioPlayer, decimal>(
             p => p.SeekTo, (decimal)0.0);
 
-        public decimal SeekTo
-        {
+        public decimal SeekTo {
             get { return (decimal)GetValue(SeekToProperty); }
             set { SetValue(SeekToProperty, value); }
         }

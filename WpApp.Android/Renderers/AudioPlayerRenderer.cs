@@ -13,8 +13,7 @@ namespace WpApp.Droid.Renderers
         MediaPlayer player;
 
         Timer timer;
-        private AudioPlayer Player
-        {
+        private AudioPlayer Player {
             get { return (AudioPlayer)this.Element; }
         }
         protected override void OnElementChanged(ElementChangedEventArgs<Frame> e)
@@ -27,24 +26,19 @@ namespace WpApp.Droid.Renderers
             timer = new Timer(1000);
             timer.Elapsed += timer_Elapsed;
 
-            player.Prepared += (sender, args) =>
-              {
-                  try
-                  {
-                      player.SeekTo(0);
-                      player.Start();
-                      timer.Start();
-                  }
-                  catch
-                  {
-                  }
-              };
+            player.Prepared += (sender, args) => {
+                try {
+                    player.SeekTo(0);
+                    player.Start();
+                    timer.Start();
+                } catch {
+                }
+            };
 
             if (string.IsNullOrWhiteSpace(Player.Url))
                 return;
 
             InitPlayer();
-
         }
 
         private void InitPlayer()
@@ -59,17 +53,13 @@ namespace WpApp.Droid.Renderers
         protected override void OnElementPropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             base.OnElementPropertyChanged(sender, e);
-            if (e.PropertyName == AudioPlayer.UrlProperty.PropertyName)
-            {
+            if (e.PropertyName == AudioPlayer.UrlProperty.PropertyName) {
                 InitPlayer();
-            }
-            else if (e.PropertyName == AudioPlayer.PlaybackStateProperty.PropertyName)
-            {
+            } else if (e.PropertyName == AudioPlayer.PlaybackStateProperty.PropertyName) {
                 if (player == null)
                     return;
 
-                switch (Player.PlaybackState)
-                {
+                switch (Player.PlaybackState) {
                     case 0:
                         player.Start();
                         timer.Start();
@@ -84,9 +74,7 @@ namespace WpApp.Droid.Renderers
                         Player.Progress = 0.0M;
                         break;
                 }
-            }
-            else if (e.PropertyName == AudioPlayer.SeekToProperty.PropertyName)
-            {
+            } else if (e.PropertyName == AudioPlayer.SeekToProperty.PropertyName) {
                 if (player == null)
                     return;
 

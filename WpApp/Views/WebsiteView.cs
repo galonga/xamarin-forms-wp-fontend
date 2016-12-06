@@ -9,8 +9,7 @@ namespace WpApp.Views
         {
             this.Title = title;
             var webView = new WebView();
-            webView.Source = new UrlWebViewSource
-            {
+            webView.Source = new UrlWebViewSource {
                 Url = site
             };
             Content = webView;

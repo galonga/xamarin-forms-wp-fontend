@@ -21,8 +21,7 @@ namespace WpApp.iOS.Helpers
         public static Color FromHex(int hex)
         {
             Func<int, int> at = offset => (hex >> offset) & 0xFF;
-            return new Color
-            {
+            return new Color {
                 R = at(16) / 255.0,
                 G = at(8) / 255.0,
                 B = at(0) / 255.0

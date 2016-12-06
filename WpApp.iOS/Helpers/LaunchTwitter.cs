@@ -11,28 +11,23 @@ using Xamarin.Forms;
 [assembly: Dependency(typeof(LaunchTwitter))]
 namespace WpApp.iOS.Helpers
 {
-    public class LaunchTwitter : ILaunchTwitter {
+    public class LaunchTwitter : ILaunchTwitter
+    {
         #region ILaunchTwitter implementation
 
         public bool OpenUserName(string username)
         {
-            try
-            {
+            try {
                 if (UIApplication.SharedApplication.OpenUrl(NSUrl.FromString($"twitter://user?screen_name={username}")))
                     return true;
-            }
-            catch (Exception ex)
-            {
+            } catch (Exception ex) {
                 System.Diagnostics.Debug.WriteLine("Unable to launch url" + ex);
             }
 
-            try
-            {
+            try {
                 if (UIApplication.SharedApplication.OpenUrl(NSUrl.FromString($"tweetbot://{username}/timeline")))
                     return true;
-            }
-            catch (Exception ex)
-            {
+            } catch (Exception ex) {
                 System.Diagnostics.Debug.WriteLine("Unable to launch url " + ex);
             }
             return false;
@@ -41,23 +36,17 @@ namespace WpApp.iOS.Helpers
         public bool OpenStatus(string statusId)
         {
 
-            try
-            {
+            try {
                 if (UIApplication.SharedApplication.OpenUrl(NSUrl.FromString($"twitter://status?id={statusId}")))
                     return true;
-            }
-            catch (Exception ex)
-            {
+            } catch (Exception ex) {
                 System.Diagnostics.Debug.WriteLine("Unable to launch url " + ex);
             }
 
-            try
-            {
+            try {
                 if (UIApplication.SharedApplication.OpenUrl(NSUrl.FromString($"tweetbot:///status/{statusId}")))
                     return true;
-            }
-            catch (Exception ex)
-            {
+            } catch (Exception ex) {
                 System.Diagnostics.Debug.WriteLine("Unable to launch url " + ex);
             }
             return false;

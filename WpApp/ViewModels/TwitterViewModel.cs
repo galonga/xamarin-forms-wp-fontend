@@ -24,16 +24,12 @@ namespace WpApp.ViewsModels
 
         private Command loadTweetsCommand;
 
-        public Command LoadTweetsCommand
-        {
-            get
-            {
+        public Command LoadTweetsCommand {
+            get {
                 return loadTweetsCommand ??
-                  (loadTweetsCommand = new Command(async () =>
-                  {
+                  (loadTweetsCommand = new Command(async () => {
                       await ExecuteLoadTweetsCommand();
-                  }, () =>
-                  {
+                  }, () => {
                       return !IsBusy;
                   }));
             }
@@ -47,14 +43,11 @@ namespace WpApp.ViewsModels
             IsBusy = true;
             LoadTweetsCommand.ChangeCanExecute();
             var error = false;
-            try
-            {
+            try {
 
                 Tweets.Clear();
-                var auth = new ApplicationOnlyAuthorizer()
-                {
-                    CredentialStore = new InMemoryCredentialStore
-                    {
+                var auth = new ApplicationOnlyAuthorizer() {
+                    CredentialStore = new InMemoryCredentialStore {
                         ConsumerKey = "ZTmEODUCChOhLXO4lnUCEbH2I",
                         ConsumerSecret = "Y8z2Wouc5ckFb1a0wjUDT9KAI6DUat5tFNdmIkPLl8T4Nyaa2J",
                     },
@@ -74,8 +67,7 @@ namespace WpApp.ViewsModels
 
                 var tweets =
                   (from tweet in queryResponse
-                   select new Tweet
-                   {
+                   select new Tweet {
                        StatusID = tweet.StatusID,
                        ScreenName = tweet.User.ScreenNameResponse,
                        Text = tweet.Text,
@@ -84,27 +76,20 @@ namespace WpApp.ViewsModels
                        Image = tweet.RetweetedStatus != null && tweet.RetweetedStatus.User != null ?
                                       tweet.RetweetedStatus.User.ProfileImageUrl.Replace("http://", "https://") : (tweet.User.ScreenNameResponse == "shanselman" ? "scott159.png" : tweet.User.ProfileImageUrl.Replace("http://", "https://"))
                    }).ToList();
-                foreach (var tweet in tweets)
-                {
+                foreach (var tweet in tweets) {
                     Tweets.Add(tweet);
                 }
 
-                if (Device.OS == TargetPlatform.iOS)
-                {
+                if (Device.OS == TargetPlatform.iOS) {
                     // only does anything on iOS, for the Watch
                     DependencyService.Get<ITweetStore>().Save(tweets);
                 }
 
-
-
-            }
-            catch
-            {
+            } catch {
                 error = true;
             }
 
-            if (error)
-            {
+            if (error) {
                 var page = new ContentPage();
                 await page.DisplayAlert("Error", "Unable to load tweets.", "OK");
             }
