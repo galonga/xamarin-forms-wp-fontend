@@ -6,12 +6,10 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 using ImageCircle.Forms.Plugin.iOS;
+using XamarinFormsAnalyticsWrapper.iOS.Services;
 
 namespace WpApp.iOS
 {
-    // The UIApplicationDelegate for the application. This class is responsible for launching the
-    // User Interface of the application, as well as listening (and optionally responding) to
-    // application events from iOS.
     [Foundation.Register("AppDelegate")]
     public partial class AppDelegate : FormsApplicationDelegate
     {
@@ -31,15 +29,18 @@ namespace WpApp.iOS
                 Font = UIFont.FromName("HelveticaNeue-Light", (nfloat)20f),
                 TextColor = UIColor.White
             });
+
             Forms.Init();
+
+            var gaService = AnalyticsService.GetGASInstance();
+            gaService.Init("UA-87598000-1", 5);
+
             ImageCircleRenderer.Init();
+
             LoadApplication(new App());
 
 
             return base.FinishedLaunching(app, options);
         }
-
-
     }
 }
-

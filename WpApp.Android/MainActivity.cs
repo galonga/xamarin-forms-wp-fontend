@@ -10,6 +10,7 @@ using Xamarin.Forms;
 using Android.Content.PM;
 using Android.Graphics.Drawables;
 using ImageCircle.Forms.Plugin.Droid;
+using XamarinFormsAnalyticsWrapper.Droid.Services;
 
 namespace WpApp.Droid
 {
@@ -29,6 +30,9 @@ namespace WpApp.Droid
 
             Forms.Init(this, savedInstanceState);
             ImageCircleRenderer.Init();
+
+            var gaService = AnalyticsService.GetGASInstance();
+            gaService.Init("UA-87598000-1", this, 5);
 
             LoadApplication(new App());
         }
