@@ -187,6 +187,12 @@
     <Reference Include="XamarinFormsAnalyticsWrapper.Droid">
       <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.1.0\lib\MonoAndroid10\XamarinFormsAnalyticsWrapper.Droid.dll</HintPath>
     </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.1.4.0\lib\monoandroid\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="ReactiveUI">
+      <HintPath>..\packages\reactiveui-core.7.0.0\lib\MonoAndroid403\ReactiveUI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -217,7 +223,6 @@
     <AndroidResource Include="Resources\drawable\googleplus.png" />
     <AndroidResource Include="Resources\drawable\instagram.png" />
     <AndroidResource Include="Resources\drawable\twitter.png" />
-    <AndroidResource Include="Resources\drawable\scott.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
@@ -238,6 +243,12 @@
     <AndroidResource Include="Resources\layout\toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable\splashbackground.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Colors.xml" />
@@ -310,9 +321,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\xml\wearable_app_desc.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\scott159.png" />
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

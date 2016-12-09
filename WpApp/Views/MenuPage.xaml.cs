@@ -20,8 +20,8 @@ namespace WpApp.Views
             }
             BindingContext = new BaseViewModel {
                 Title = "Wordpress.Forms",
-                Subtitle = "Wordpress.Forms",
-                Icon = "slideout.png"
+                Subtitle = "galonga",
+                Icon =  "slideout.png"
             };
 
             ListViewMenu.ItemsSource = menuItems = new List<HomeMenuItem>

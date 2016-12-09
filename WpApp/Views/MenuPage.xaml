@@ -34,12 +34,12 @@
                             Grid.Row="1"
                             HorizontalOptions="Start"
                             VerticalOptions="End"
-                            Source="scott159.png"
+                            Source="logo.png"
                             WidthRequest="75" HeightRequest="75"/>
                         <Label 
                             Grid.Column="1"
                             Grid.Row="2"
-                            Text="Hanselman.Forms"
+                            Text="Wordpress.Forms"
                             Style="{DynamicResource SubtitleStyle}"/>
                     </Grid>
                 </ListView.Header>

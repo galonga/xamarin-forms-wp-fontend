@@ -15,6 +15,7 @@ using XamarinFormsAnalyticsWrapper.Droid.Services;
 namespace WpApp.Droid
 {
     [Activity(Label = "WpApp",
+        Theme = "@style/MySplash",
         MainLauncher = true,
         ScreenOrientation = ScreenOrientation.Portrait,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -23,6 +24,8 @@ namespace WpApp.Droid
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            base.SetTheme(Resource.Style.MyTheme);
+
             FormsAppCompatActivity.ToolbarResource = Resource.Layout.toolbar;
             FormsAppCompatActivity.TabLayoutResource = Resource.Layout.tabs;
 
