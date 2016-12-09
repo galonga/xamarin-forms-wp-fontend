@@ -24,18 +24,18 @@ namespace WpApp.Views
                 Command = new Command(() => {
                     //try to launch twitter or tweetbot app, else launch browser
                     var launch = DependencyService.Get<ILaunchTwitter>();
-                    if (launch == null || !launch.OpenUserName("shanselman"))
-                        OpenBrowser("http://m.twitter.com/shanselman");
+                    if (launch == null || !launch.OpenUserName("MrGalonga"))
+                        OpenBrowser("http://m.twitter.com/MrGalonga");
                 })
             });
 
             facebook.GestureRecognizers.Add(new TapGestureRecognizer() {
-                Command = new Command(() => OpenBrowser("https://m.facebook.com/shanselman"))
+                Command = new Command(() => OpenBrowser("https://m.facebook.com/MrGalonga"))
             });
 
 
             instagram.GestureRecognizers.Add(new TapGestureRecognizer() {
-                Command = new Command(() => OpenBrowser("https://www.instagram.com/shanselman"))
+                Command = new Command(() => OpenBrowser("https://www.instagram.com/MrGalonga"))
             });
         }
     }

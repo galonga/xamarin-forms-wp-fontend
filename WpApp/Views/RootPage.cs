@@ -17,7 +17,7 @@ namespace WpApp.Views
             Pages = new Dictionary<MenuType, NavigationPage>();
             Master = new MenuPage(this);
             BindingContext = new BaseViewModel {
-                Title = "Hanselman",
+                Title = "Wordpress.Forms",
                 Icon = "slideout.png"
             };
             //setup home page

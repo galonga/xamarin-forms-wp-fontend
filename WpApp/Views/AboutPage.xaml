@@ -3,16 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:WpApp.Helpers;assembly=WpApp"
              x:Class="WpApp.Views.AboutPage"
-             Title="Scott Hanselman">
+             Title="Wordpress.Forms">
   <ScrollView>
     <StackLayout Orientation="Vertical" Spacing="10">
-      <Image Aspect="AspectFill" Source="scott.png"/>
       <StackLayout Spacing="10" 
                    Padding="10" 
                    VerticalOptions="FillAndExpand">
 
         <Label
-               Text="My name is Scott Hanselman. I'm a programmer, teacher, and speaker. I work out of my home office in Portland, Oregon for the Web Platform Team at Microsoft, but this blog, its content and opinions are my own. I blog about technology, culture, gadgets, diversity, code, the web, where we're going and where we've been. I'm excited about community, social equity, media, entrepreneurship and above all, the open web."
+               Text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
                LineBreakMode="WordWrap"/>
 
         <StackLayout Orientation="Horizontal"

@@ -30,7 +30,7 @@ namespace WpApp.Views
                 Icon = "ic_share.png",
                 Text = "Share",
                 Command = new Command(() => CrossShare.Current
-                  .Share("Be sure to read @shanselman's " + item.Title + " " + item.Link))
+                  .Share("Be sure to read @MrGalonga's " + item.Title + " " + item.Link))
             };
 
             ToolbarItems.Add(share);

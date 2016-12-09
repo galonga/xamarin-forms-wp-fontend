@@ -164,6 +164,12 @@
     <Reference Include="XamarinFormsAnalyticsWrapper.IOS">
       <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.1.0\lib\Xamarin.iOS10\XamarinFormsAnalyticsWrapper.IOS.dll</HintPath>
     </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.1.4.0\lib\Portable-net45+win+wpa81+wp80\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="ReactiveUI">
+      <HintPath>..\packages\reactiveui-core.7.0.0\lib\Xamarin.iOS10\ReactiveUI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png">
@@ -191,9 +197,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
     <BundleResource Include="Resources\slideout.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-    <BundleResource Include="Resources\scott.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
     <BundleResource Include="Resources\refresh.png">
@@ -226,6 +229,9 @@
     <BundleResource Include="Resources\twitternav%402x.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
+    <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\logo%402x.png" />
+    <BundleResource Include="Resources\logo%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -345,35 +351,23 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Icon-Small.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Icon-Small%402x.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Icon-60%402x.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Icon-Small-40%402x.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\scott159.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\WpApp\WpApp.csproj">
       <Project>{028799a4-e2fd-4901-b950-666c00efbf63}</Project>
       <Name>WpApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\splashscreen_2048x2732.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\splashscreen_landscape_2732x2048.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\icon.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\iconi3x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\iconsp2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\iconi2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\iconi1x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\iconapp3x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcon.appiconset\iconapp2x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
