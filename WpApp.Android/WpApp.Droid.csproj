@@ -181,11 +181,11 @@
     <Reference Include="Xamarin.GooglePlayServices.Analytics">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Analytics.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="XamarinAnalyticsBindings">
-      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.0.1\lib\MonoAndroid10\XamarinAnalyticsBindings.dll</HintPath>
+    <Reference Include="XamarinFormsAnalyticsWrapper">
+      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.1.0\lib\MonoAndroid10\XamarinFormsAnalyticsWrapper.dll</HintPath>
     </Reference>
-    <Reference Include="XamarinAnalyticsBindings.Droid">
-      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.0.1\lib\MonoAndroid10\XamarinAnalyticsBindings.Droid.dll</HintPath>
+    <Reference Include="XamarinFormsAnalyticsWrapper.Droid">
+      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.1.0\lib\MonoAndroid10\XamarinFormsAnalyticsWrapper.Droid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

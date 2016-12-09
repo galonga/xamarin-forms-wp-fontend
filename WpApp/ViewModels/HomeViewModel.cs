@@ -59,7 +59,5 @@ namespace WpApp.ViewsModels
                 Icon = "tdl.png"
             });
         }
-
     }
 }
-

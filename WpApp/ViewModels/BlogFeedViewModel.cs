@@ -7,15 +7,22 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using System.Linq;
 using WpApp.Models;
+using XamarinFormsAnalyticsWrapper.Services;
 
 namespace WpApp.ViewsModels
 {
     public class BlogFeedViewModel : BaseViewModel
     {
+        readonly ITracker tracker;
+
         public BlogFeedViewModel()
         {
+            this.tracker = new AnalyticsTracker(DependencyService.Get<IAnalyticsService>());
+
             Title = "Blog";
             Icon = "blog.png";
+
+            tracker.TrackScreen(Title);
         }
 
 

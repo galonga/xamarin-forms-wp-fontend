@@ -158,11 +158,11 @@
     <Reference Include="Google.Analytics">
       <HintPath>..\packages\Xamarin.Google.iOS.Analytics.3.17.0\lib\Xamarin.iOS10\Google.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="XamarinAnalyticsBindings">
-      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.0.1\lib\Xamarin.iOS10\XamarinAnalyticsBindings.dll</HintPath>
+    <Reference Include="XamarinFormsAnalyticsWrapper">
+      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.1.0\lib\Xamarin.iOS10\XamarinFormsAnalyticsWrapper.dll</HintPath>
     </Reference>
-    <Reference Include="XamarinAnalyticsBindings.IOS">
-      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.0.1\lib\Xamarin.iOS10\XamarinAnalyticsBindings.IOS.dll</HintPath>
+    <Reference Include="XamarinFormsAnalyticsWrapper.IOS">
+      <HintPath>..\packages\xamarin-forms-analytics-wrapper.0.1.0\lib\Xamarin.iOS10\XamarinFormsAnalyticsWrapper.IOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
