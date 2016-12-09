@@ -1,10 +1,11 @@
 ﻿using Plugin.Share;
 using Xamarin.Forms;
 using WpApp.Models;
+using WpApp.Common.Views.Pages;
 
 namespace WpApp.Views
 {
-    public class BlogDetailsView : BaseView
+    public class BlogDetailsView : BaseContentPage
     {
         public BlogDetailsView(FeedItem item)
         {

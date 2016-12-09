@@ -11,6 +11,7 @@ using Android.Content.PM;
 using Android.Graphics.Drawables;
 using ImageCircle.Forms.Plugin.Droid;
 using XamarinFormsAnalyticsWrapper.Droid.Services;
+using Acr.UserDialogs;
 
 namespace WpApp.Droid
 {
@@ -33,6 +34,7 @@ namespace WpApp.Droid
 
             Forms.Init(this, savedInstanceState);
             ImageCircleRenderer.Init();
+            UserDialogs.Init(() => (Activity)Forms.Context);
 
             var gaService = AnalyticsService.GetGASInstance();
             gaService.Init("UA-87598000-1", this, 5);
