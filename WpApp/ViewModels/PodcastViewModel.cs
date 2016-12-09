@@ -8,6 +8,7 @@ using System.Collections.ObjectModel;
 using System.Net.Http;
 using System.Xml.Linq;
 using WpApp.Models;
+using XamarinFormsAnalyticsWrapper.Services;
 
 namespace WpApp.ViewsModels
 {
@@ -15,9 +16,12 @@ namespace WpApp.ViewsModels
     {
         MenuType item;
         private string image;
+        readonly ITracker tracker;
+
         public PodcastViewModel(MenuType item)
         {
             this.item = item;
+            this.tracker = new AnalyticsTracker(DependencyService.Get<IAnalyticsService>());
 
             switch (item) {
                 case MenuType.Hanselminutes:
@@ -33,6 +37,8 @@ namespace WpApp.ViewsModels
                     Title = "This Developer Life";
                     break;
             }
+
+            tracker.TrackScreen(Title);
         }
 
 

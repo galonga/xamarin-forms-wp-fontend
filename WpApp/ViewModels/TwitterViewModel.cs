@@ -6,20 +6,25 @@ using System.Threading.Tasks;
 using System.Linq;
 using WpApp.Models;
 using WpApp.Helpers;
+using XamarinFormsAnalyticsWrapper.Services;
 
 namespace WpApp.ViewsModels
 {
     public class TwitterViewModel : BaseViewModel
     {
-
         public ObservableCollection<Tweet> Tweets { get; set; }
+
+        readonly ITracker tracker;
 
         public TwitterViewModel()
         {
+            this.tracker = new AnalyticsTracker(DependencyService.Get<IAnalyticsService>());
+
             Title = "Twitter";
             Icon = "slideout.png";
             Tweets = new ObservableCollection<Tweet>();
 
+            tracker.TrackScreen(Title);
         }
 
         private Command loadTweetsCommand;
