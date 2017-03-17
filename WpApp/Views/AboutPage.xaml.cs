@@ -12,7 +12,6 @@ namespace WpApp.Views
             CrossShare.Current.OpenBrowser(url, new Plugin.Share.Abstractions.BrowserOptions {
                 ChromeShowTitle = true,
                 ChromeToolbarColor = new Plugin.Share.Abstractions.ShareColor { R = 3, G = 169, B = 244, A = 255 },
-                UseSafairReaderMode = true,
                 UseSafariWebViewController = true
             });
         }

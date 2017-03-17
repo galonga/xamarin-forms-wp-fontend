@@ -13,11 +13,11 @@ namespace WpApp.ViewsModels
 {
     public class BlogFeedViewModel : BaseViewModel
     {
-        readonly ITracker tracker;
+        readonly AppTracker tracker;
 
         public BlogFeedViewModel()
         {
-            this.tracker = new AnalyticsTracker(DependencyService.Get<IAnalyticsService>());
+            this.tracker = new AppTracker();
 
             Title = "Blog";
             Icon = "blog.png";
@@ -75,8 +75,9 @@ namespace WpApp.ViewsModels
                 foreach (var item in items) {
                     FeedItems.Add(item);
                 }
-            } catch {
+            } catch (Exception ex){
                 error = true;
+                tracker.TrackException(ex);
             }
 
             if (error) {

@@ -1,55 +1,71 @@
-#Library objects
-*.lo
-*.la
+# Autosave files
+*~
 
-#OS junk files
-[Tt]humbs.db
-*.DS_Store
-
-#Visual Studio files
-*.[Oo]bj
-*.user
-*.aps
-*.pch
-*.vspscc
-*.vssscc
-*_i.c
-*_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.[Cc]ache
-*.ilk
-*.log
-*.lib
-*.sbr
-*.sdf
-*.opensdf
-*.unsuccessfulbuild
-ipch/
+### XamarinStudio ###
+bin/
 obj/
-[Aa]pp/
-[Pp]ackages/
+*.userprefs
+
+# build
+[Oo]bj/
 [Bb]in/
-[Dd]ebug*/
-[Rr]elease*/
-Common/lib/
-Ankh.NoLoad
-Components/
-APK/
+packages/
+TestResults/
 
-#Tooling
-_ReSharper*/
-*.resharper
-[Tt]est[Rr]esult*
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+.AppleDouble
+.LSOverride
 
-#Project files
-*/[Bb]uild/
+# Thumbnails
+._*
 
-#Subversion files
-.svn
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-# Office Temp Files
-~$*
+# Mac bundle stuff
+*.dmg
+*.app
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# NuGet Packages
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# resharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
+
+RefitStubs.cs
+TestResult.xml
+.fake

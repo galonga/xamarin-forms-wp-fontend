@@ -32,7 +32,10 @@ namespace WpApp.iOS
             });
 
             var manager = BITHockeyManager.SharedHockeyManager;
-            manager.Configure("$Your_App_Id");
+#if DEBUG
+            manager.DebugLogEnabled = true;
+#endif
+            manager.Configure("4ff5552b508c4d6da01433b3fad81730");
             manager.StartManager();
             manager.Authenticator.AuthenticateInstallation();
 

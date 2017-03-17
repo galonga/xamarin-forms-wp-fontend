@@ -25,12 +25,18 @@ namespace WpApp.Views
           webView
         }
             };
-            var share = new ToolbarItem
-            {
+            var share = new ToolbarItem {
                 Icon = "ic_share.png",
                 Text = "Share",
                 Command = new Command(() => CrossShare.Current
-                  .Share("Be sure to read @MrGalonga's " + item.Title + " " + item.Link))
+                                      .Share(
+                                          new Plugin.Share.Abstractions.ShareMessage {
+                                              Text = "Be sure to read @MrGalonga's ",
+                                              Title = item.Title,
+                                              Url = item.Link
+                                          }
+                                         )
+                                     )
             };
 
             ToolbarItems.Add(share);
