@@ -11,8 +11,12 @@ namespace WpApp.ViewsModels
     public class HomeViewModel : BaseViewModel
     {
         public ObservableCollection<HomeMenuItem> MenuItems { get; set; }
+        readonly AppTracker tracker;
+
         public HomeViewModel()
         {
+            this.tracker = new AppTracker();
+
             CanLoadMore = true;
             Title = "Hanselman";
             MenuItems = new ObservableCollection<HomeMenuItem>();

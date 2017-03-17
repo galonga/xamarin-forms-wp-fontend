@@ -16,12 +16,12 @@ namespace WpApp.ViewsModels
     {
         MenuType item;
         private string image;
-        readonly ITracker tracker;
+        readonly AppTracker tracker;
 
         public PodcastViewModel(MenuType item)
         {
             this.item = item;
-            this.tracker = new AnalyticsTracker(DependencyService.Get<IAnalyticsService>());
+            this.tracker = new AppTracker();
 
             switch (item) {
                 case MenuType.Hanselminutes:
@@ -91,7 +91,7 @@ namespace WpApp.ViewsModels
                         feed = "http://feeds.feedburner.com/RatchetAndTheGeek?format=xml";
                         break;
                     case MenuType.DeveloperLife:
-                        feed = "http://feeds.feedburner.com/ThisDevelopersLife?format=xml";
+                        feed = "https://galonga.de/feed/";
                         break;
                 }
                 var responseString = await httpClient.GetStringAsync(feed);
@@ -101,8 +101,9 @@ namespace WpApp.ViewsModels
                 foreach (var feedItem in items) {
                     FeedItems.Add(feedItem);
                 }
-            } catch {
+            } catch (Exception ex){
                 error = true;
+                tracker.TrackException(ex);
             }
 
             if (error) {

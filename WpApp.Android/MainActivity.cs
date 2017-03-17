@@ -11,6 +11,9 @@ using Android.Content.PM;
 using Android.Graphics.Drawables;
 using ImageCircle.Forms.Plugin.Droid;
 using XamarinFormsAnalyticsWrapper.Droid.Services;
+using HockeyApp.Android;
+using HockeyApp.Android.Metrics;
+using HockeyApp.Android.Utils;
 
 namespace WpApp.Droid
 {
@@ -25,6 +28,12 @@ namespace WpApp.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.SetTheme(Resource.Style.MyTheme);
+
+#if DEBUG
+            HockeyLog.LogLevel = 3;
+#endif
+            CrashManager.Register(this, "5355b02ee8954d85b6c413df5afa72e0");
+            MetricsManager.Register(this, Application, "5355b02ee8954d85b6c413df5afa72e0");
 
             FormsAppCompatActivity.ToolbarResource = Resource.Layout.toolbar;
             FormsAppCompatActivity.TabLayoutResource = Resource.Layout.tabs;

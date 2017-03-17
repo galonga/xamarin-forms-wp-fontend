@@ -7,6 +7,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 using ImageCircle.Forms.Plugin.iOS;
 using XamarinFormsAnalyticsWrapper.iOS.Services;
+using HockeyApp.iOS;
 
 namespace WpApp.iOS
 {
@@ -29,6 +30,14 @@ namespace WpApp.iOS
                 Font = UIFont.FromName("HelveticaNeue-Light", (nfloat)20f),
                 TextColor = UIColor.White
             });
+
+            var manager = BITHockeyManager.SharedHockeyManager;
+#if DEBUG
+            manager.DebugLogEnabled = true;
+#endif
+            manager.Configure("4ff5552b508c4d6da01433b3fad81730");
+            manager.StartManager();
+            manager.Authenticator.AuthenticateInstallation();
 
             Forms.Init();
 

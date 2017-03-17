@@ -17,10 +17,15 @@ namespace WpApp.Views
             var share = new ToolbarItem {
                 Icon = "ic_share.png",
                 Text = "Share",
-                Command = new Command(() => {
-                    CrossShare.Current.Share("Listening to @shanselman's " + item.Title + " " + item.Link, "Share");
-                })
-            };
+                Command = new Command(() => CrossShare.Current
+                                  .Share(
+                                      new Plugin.Share.Abstractions.ShareMessage {
+                                          Text = "Listening to Mr. Galonga's ",
+                                          Title = item.Title,
+                                          Url = item.Link
+                                      }
+                                 )
+             )};
 
             ToolbarItems.Add(share);
 

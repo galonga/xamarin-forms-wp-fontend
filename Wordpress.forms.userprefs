@@ -1,9 +1,24 @@
-﻿<Properties StartupConfiguration="{6BE27B2E-552F-43B2-82D5-058D7F180CEC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WpApp.iOS/Main.cs">
+﻿<Properties StartupConfiguration="{E5B4A6E4-CAAA-4E33-BC65-4D8214905BB3}|Default">
+  <MonoDevelop.Ide.ItemProperties.WpApp.Droid PreferredExecutionTarget="Android.9cd477dc" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WpApp/Views/PodcastPage.xaml.cs">
     <Files>
-      <File FileName="WpApp.iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="WpApp.Android/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="WpApp.iOS/Main.cs" Line="20" Column="1" />
+      <File FileName="WpApp.iOS/AppDelegate.cs" Line="35" Column="1" />
+      <File FileName="WpApp.Android/MainActivity.cs" Line="32" Column="1" />
+      <File FileName="WpApp.iOS/Main.cs" Line="16" Column="1" />
+      <File FileName="WpApp.iOS/Info.plist" />
+      <File FileName="WpApp/Views/PodcastPlaybackPage.xaml.cs" Line="9" Column="35" />
+      <File FileName="WpApp/Views/TwitterPage.xaml.cs" Line="15" Column="9" />
+      <File FileName="WpApp/ViewModels/PodcastViewModel.cs" Line="106" Column="44" />
+      <File FileName="WpApp/ViewModels/TwitterViewModel.cs" Line="90" Column="18" />
+      <File FileName="WpApp/Views/MenuPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="WpApp/Helpers/Tracking/ITracker.cs" Line="12" Column="1" />
+      <File FileName="WpApp/Helpers/Tracking/AnalyticsTracker.cs" Line="37" Column="31" />
+      <File FileName="WpApp/Helpers/Tracking/ErrorTracker.cs" Line="19" Column="1" />
+      <File FileName="WpApp/Helpers/Tracking/AppTracker.cs" Line="15" Column="51" />
+      <File FileName="WpApp/ViewModels/HomeViewModel.cs" Line="19" Column="13" />
+      <File FileName="WpApp/Views/BlogDetailsView.cs" Line="39" Column="39" />
+      <File FileName="WpApp/Helpers/ITweetStore.cs" Line="9" Column="53" />
+      <File FileName="WpApp/Views/PodcastPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -11,6 +26,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WpApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B1876D11-05CB-4E51-864F-A07C972972B4" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WpApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.14B2492A-E89D-4295-840B-AB16F52096C1" />
   <MonoDevelop.Ide.ItemProperties.Wp.Android PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
 </Properties>

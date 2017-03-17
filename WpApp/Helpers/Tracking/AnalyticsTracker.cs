@@ -22,10 +22,10 @@ namespace WpApp
             }
         }
 
-        public void TrackException(string exception, bool isFatal)
+        public void TrackException(Exception exception, bool isFatal)
         {
             try {
-                gaService.TrackException(exception, isFatal);
+                gaService.TrackException(exception.Message, isFatal);
             } catch (Exception) {
             }
         }

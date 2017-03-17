@@ -14,11 +14,11 @@ namespace WpApp.ViewsModels
     {
         public ObservableCollection<Tweet> Tweets { get; set; }
 
-        readonly ITracker tracker;
+        readonly AppTracker tracker;
 
         public TwitterViewModel()
         {
-            this.tracker = new AnalyticsTracker(DependencyService.Get<IAnalyticsService>());
+            this.tracker = new AppTracker();
 
             Title = "Twitter";
             Icon = "slideout.png";
@@ -49,7 +49,6 @@ namespace WpApp.ViewsModels
             LoadTweetsCommand.ChangeCanExecute();
             var error = false;
             try {
-
                 Tweets.Clear();
                 var auth = new ApplicationOnlyAuthorizer() {
                     CredentialStore = new InMemoryCredentialStore {
@@ -89,9 +88,9 @@ namespace WpApp.ViewsModels
                     // only does anything on iOS, for the Watch
                     DependencyService.Get<ITweetStore>().Save(tweets);
                 }
-
-            } catch {
+            } catch (Exception ex) {
                 error = true;
+                tracker.TrackException(ex);
             }
 
             if (error) {
