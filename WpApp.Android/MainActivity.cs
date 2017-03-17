@@ -26,6 +26,7 @@ namespace WpApp.Droid
         {
             base.SetTheme(Resource.Style.MyTheme);
 
+            rashManager.Register(this, "$Your_App_Id");
             FormsAppCompatActivity.ToolbarResource = Resource.Layout.toolbar;
             FormsAppCompatActivity.TabLayoutResource = Resource.Layout.tabs;
 
