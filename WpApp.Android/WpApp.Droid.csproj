@@ -197,6 +197,12 @@
     <Reference Include="Plugin.Share">
       <HintPath>..\packages\Plugin.Share.5.0.0\lib\MonoAndroid10\Plugin.Share.dll</HintPath>
     </Reference>
+    <Reference Include="BottomNavigationBar">
+      <HintPath>..\packages\BottomNavigationBar.1.1.2\lib\MonoAndroid403\BottomNavigationBar.dll</HintPath>
+    </Reference>
+    <Reference Include="BottomBar.Droid">
+      <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.1\lib\MonoAndroid10\BottomBar.Droid.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
