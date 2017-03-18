@@ -4,18 +4,17 @@ namespace WpApp.Models
 {
     public enum MenuType
     {
-        About,
+        Home,
         Blog,
         Twitter,
-        Hanselminutes,
-        Ratchet,
-        DeveloperLife
+        Podcast,
+        Artists
     }
     public class HomeMenuItem : BaseModel
     {
         public HomeMenuItem()
         {
-            MenuType = MenuType.About;
+            MenuType = MenuType.Home;
         }
         public string Icon { get; set; }
         public MenuType MenuType { get; set; }

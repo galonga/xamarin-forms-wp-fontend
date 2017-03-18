@@ -26,13 +26,11 @@ namespace WpApp.Views
 
             ListViewMenu.ItemsSource = menuItems = new List<HomeMenuItem>
                 {
-                    new HomeMenuItem { Title = "About", MenuType = MenuType.About, Icon ="about.png" },
+                    new HomeMenuItem { Title = "About", MenuType = MenuType.Home, Icon ="about.png" },
                     new HomeMenuItem { Title = "Blog", MenuType = MenuType.Blog, Icon = "blog.png" },
                     new HomeMenuItem { Title = "Twitter", MenuType = MenuType.Twitter, Icon = "twitternav.png" },
-                    new HomeMenuItem { Title = "Hanselminues", MenuType = MenuType.Hanselminutes, Icon = "hm.png" },
-                    new HomeMenuItem { Title = "Ratchet", MenuType =MenuType.Ratchet, Icon = "ratchet.png" },
-                    new HomeMenuItem { Title = "Developers Life", MenuType = MenuType.DeveloperLife, Icon = "tdl.png"},
-
+                    new HomeMenuItem { Title = "Hanselminues", MenuType = MenuType.Podcast, Icon = "hm.png" },
+                    new HomeMenuItem { Title = "Ratchet", MenuType =MenuType.Artists, Icon = "ratchet.png" },
                 };
 
             ListViewMenu.SelectedItem = menuItems[0];

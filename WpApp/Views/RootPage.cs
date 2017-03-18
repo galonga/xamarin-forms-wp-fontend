@@ -21,7 +21,7 @@ namespace WpApp.Views
                 Icon = "slideout.png"
             };
             //setup home page
-            NavigateAsync(MenuType.About);
+            NavigateAsync(MenuType.Home);
 
             InvalidateMeasure();
         }
@@ -41,19 +41,16 @@ namespace WpApp.Views
             if (!Pages.ContainsKey(id)) {
 
                 switch (id) {
-                    case MenuType.About:
+                    case MenuType.Home:
                         Pages.Add(id, new WpNavigationPage(new AboutPage()));
                         break;
                     case MenuType.Blog:
                         Pages.Add(id, new WpNavigationPage(new BlogPage()));
                         break;
-                    case MenuType.DeveloperLife:
+                    case MenuType.Podcast:
                         Pages.Add(id, new WpNavigationPage(new PodcastPage(id)));
                         break;
-                    case MenuType.Hanselminutes:
-                        Pages.Add(id, new WpNavigationPage(new PodcastPage(id)));
-                        break;
-                    case MenuType.Ratchet:
+                    case MenuType.Artists:
                         Pages.Add(id, new WpNavigationPage(new PodcastPage(id)));
                         break;
                     case MenuType.Twitter:

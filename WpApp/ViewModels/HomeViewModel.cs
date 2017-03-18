@@ -24,7 +24,7 @@ namespace WpApp.ViewsModels
             MenuItems.Add(new HomeMenuItem {
                 Id = 0,
                 Title = "About",
-                MenuType = MenuType.About,
+                MenuType = MenuType.Home,
                 Icon = "about.png"
             });
 
@@ -45,22 +45,15 @@ namespace WpApp.ViewsModels
             MenuItems.Add(new HomeMenuItem {
                 Id = 3,
                 Title = "Hanselminutes",
-                MenuType = MenuType.Hanselminutes,
+                MenuType = MenuType.Podcast,
                 Icon = "hm.png"
             });
 
             MenuItems.Add(new HomeMenuItem {
                 Id = 4,
                 Title = "Ratchet & The Geek",
-                MenuType = MenuType.Ratchet,
+                MenuType = MenuType.Artists,
                 Icon = "ratchet.png"
-            });
-
-            MenuItems.Add(new HomeMenuItem {
-                Id = 5,
-                Title = "This Developer's Life",
-                MenuType = MenuType.DeveloperLife,
-                Icon = "tdl.png"
             });
         }
     }

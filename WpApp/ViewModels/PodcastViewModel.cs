@@ -24,17 +24,13 @@ namespace WpApp.ViewsModels
             this.tracker = new AppTracker();
 
             switch (item) {
-                case MenuType.Hanselminutes:
+                case MenuType.Podcast:
                     image = "hm_full.jpg";
                     Title = "Hanselminutes";
                     break;
-                case MenuType.Ratchet:
+                case MenuType.Artists:
                     image = "ratchet_full.jpg";
                     Title = "Ratchet & The Geek";
-                    break;
-                case MenuType.DeveloperLife:
-                    image = "tdl_full.jpg";
-                    Title = "This Developer Life";
                     break;
             }
 
@@ -84,14 +80,11 @@ namespace WpApp.ViewsModels
                 var feed = string.Empty;
 
                 switch (item) {
-                    case MenuType.Hanselminutes:
+                    case MenuType.Podcast:
                         feed = "https://www.minmon.de/category/podcast/feed/";
                         break;
-                    case MenuType.Ratchet:
+                    case MenuType.Artists:
                         feed = "http://feeds.feedburner.com/RatchetAndTheGeek?format=xml";
-                        break;
-                    case MenuType.DeveloperLife:
-                        feed = "https://galonga.de/feed/";
                         break;
                 }
                 var responseString = await httpClient.GetStringAsync(feed);

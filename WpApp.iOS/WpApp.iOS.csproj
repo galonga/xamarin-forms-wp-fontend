@@ -238,6 +238,21 @@
     <BundleResource Include="Resources\logo.png" />
     <BundleResource Include="Resources\logo%402x.png" />
     <BundleResource Include="Resources\logo%403x.png" />
+    <BundleResource Include="Resources\ic_home_2x.png" />
+    <BundleResource Include="Resources\ic_home_3x.png" />
+    <BundleResource Include="Resources\ic_home.png" />
+    <BundleResource Include="Resources\ic_settings_2x.png" />
+    <BundleResource Include="Resources\ic_settings_3x.png" />
+    <BundleResource Include="Resources\ic_settings.png" />
+    <BundleResource Include="Resources\ic_view_list_2x.png" />
+    <BundleResource Include="Resources\ic_view_list_3x.png" />
+    <BundleResource Include="Resources\ic_view_list.png" />
+    <BundleResource Include="Resources\ic_people_2x.png" />
+    <BundleResource Include="Resources\ic_people_3x.png" />
+    <BundleResource Include="Resources\ic_people.png" />
+    <BundleResource Include="Resources\ic_queue_music_2x.png" />
+    <BundleResource Include="Resources\ic_queue_music_3x.png" />
+    <BundleResource Include="Resources\ic_queue_music.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

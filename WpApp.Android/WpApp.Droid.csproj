@@ -259,6 +259,31 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\logo.png" />
     <AndroidResource Include="Resources\drawable-hdpi\logo.png" />
     <AndroidResource Include="Resources\drawable\splashbackground.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_queue_music.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Colors.xml" />
