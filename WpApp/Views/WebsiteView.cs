@@ -1,9 +1,10 @@
 ﻿using System;
+using WpApp.Common.Views.Pages;
 using Xamarin.Forms;
 
 namespace WpApp.Views
 {
-    public class WebsiteView : BaseView
+    public class WebsiteView : BaseContentPage
     {
         public WebsiteView(string site, string title)
         {
@@ -16,4 +17,3 @@ namespace WpApp.Views
         }
     }
 }
-

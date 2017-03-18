@@ -2,10 +2,11 @@
 using System.ComponentModel;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using ReactiveUI;
 
-namespace WpApp.ViewsModels
+namespace WpApp.ViewModels
 {
-    public class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : ReactiveObject, INotifyPropertyChanged
     {
         string title = string.Empty;
         public const string TitlePropertyName = "Title";

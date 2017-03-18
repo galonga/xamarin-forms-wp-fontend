@@ -10,7 +10,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Gms.Wearable;
 using Android.Gms.Common.Apis;
-using WpApp.ViewsModels;
+using WpApp.ViewModels;
 
 namespace WpApp.Droid
 {
@@ -39,50 +39,50 @@ namespace WpApp.Droid
 
         async void HandleMessage(IMessageEvent message)
         {
-            try {
-                Android.Util.Log.Info("WearIntegration", "Received Message");
-                var client = new GoogleApiClient.Builder(this)
-                  .AddApi(WearableClass.API)
-                  .Build();
+            //try {
+            //    Android.Util.Log.Info("WearIntegration", "Received Message");
+            //    var client = new GoogleApiClient.Builder(this)
+            //      .AddApi(WearableClass.API)
+            //      .Build();
 
-                var result = client.BlockingConnect(30, Java.Util.Concurrent.TimeUnit.Seconds);
-                if (!result.IsSuccess)
-                    return;
+            //    var result = client.BlockingConnect(30, Java.Util.Concurrent.TimeUnit.Seconds);
+            //    if (!result.IsSuccess)
+            //        return;
 
-                var path = message.Path;
+            //    var path = message.Path;
 
-                try {
+            //    try {
 
-                    if (path.StartsWith(TweetsPath)) {
+            //        if (path.StartsWith(TweetsPath)) {
 
-                        var viewModel = new TwitterViewModel();
+            //            var viewModel = new TwitterViewModel();
 
-                        await viewModel.ExecuteLoadTweetsCommand();
+            //            await viewModel.ExecuteLoadTweetsCommand();
 
-                        var request = PutDataMapRequest.Create(TweetsPath + "/Answer");
-                        var map = request.DataMap;
+            //            var request = PutDataMapRequest.Create(TweetsPath + "/Answer");
+            //            var map = request.DataMap;
 
-                        var tweetMap = new List<DataMap>();
-                        foreach (var tweet in viewModel.Tweets) {
-                            var itemMap = new DataMap();
+            //            var tweetMap = new List<DataMap>();
+            //            foreach (var tweet in viewModel.Tweets) {
+            //                var itemMap = new DataMap();
 
-                            itemMap.PutLong("CreatedAt", tweet.CreatedAt.Ticks);
-                            itemMap.PutString("ScreenName", tweet.ScreenName);
-                            itemMap.PutString("Text", tweet.Text);
+            //                itemMap.PutLong("CreatedAt", tweet.CreatedAt.Ticks);
+            //                itemMap.PutString("ScreenName", tweet.ScreenName);
+            //                itemMap.PutString("Text", tweet.Text);
 
-                            tweetMap.Add(itemMap);
-                        }
-                        map.PutDataMapArrayList("Tweets", tweetMap);
-                        map.PutLong("UpdatedAt", DateTime.UtcNow.Ticks);
+            //                tweetMap.Add(itemMap);
+            //            }
+            //            map.PutDataMapArrayList("Tweets", tweetMap);
+            //            map.PutLong("UpdatedAt", DateTime.UtcNow.Ticks);
 
-                        await WearableClass.DataApi.PutDataItem(client, request.AsPutDataRequest());
-                    }
-                } finally {
-                    client.Disconnect();
-                }
-            } catch (Exception e) {
-                Android.Util.Log.Error("WearIntegration", e.ToString());
-            }
+            //            await WearableClass.DataApi.PutDataItem(client, request.AsPutDataRequest());
+            //        }
+            //    } finally {
+            //        client.Disconnect();
+            //    }
+            //} catch (Exception e) {
+            //    Android.Util.Log.Error("WearIntegration", e.ToString());
+            //}
         }
     }
 }

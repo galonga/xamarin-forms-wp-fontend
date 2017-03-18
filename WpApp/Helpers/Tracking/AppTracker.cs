@@ -4,16 +4,11 @@ using System.Diagnostics;
 using Xamarin.Forms;
 using XamarinFormsAnalyticsWrapper.Services;
 
-namespace WpApp
+namespace WpApp.Helpers.Tracking
 {
-    public class AppTracker : ITracker
+    public class AppTracker : IAppTracker
     {
         public List<ITracker> trackers { private set; get; } = new List<ITracker>();
-
-        public AppTracker() {
-            this.trackers.Add(new AnalyticsTracker(DependencyService.Get<IAnalyticsService>()));
-            this.trackers.Add(new ErrorTracker());
-        }
 
         public void RegisterTracker(ITracker tracker)
         {

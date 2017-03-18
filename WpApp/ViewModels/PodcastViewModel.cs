@@ -9,34 +9,20 @@ using System.Net.Http;
 using System.Xml.Linq;
 using WpApp.Models;
 using XamarinFormsAnalyticsWrapper.Services;
+using WpApp.Helpers.Tracking;
 
-namespace WpApp.ViewsModels
+namespace WpApp.ViewModels
 {
-    public class PodcastViewModel : BaseViewModel
+    public class PodcastViewModel : BaseViewModel, IPodcastViewModel
     {
-        MenuType item;
         private string image;
-        readonly AppTracker tracker;
+        readonly IAppTracker tracker;
 
-        public PodcastViewModel(MenuType item)
+        public PodcastViewModel(IAppTracker tracker)
         {
-            this.item = item;
-            this.tracker = new AppTracker();
-
-            switch (item) {
-                case MenuType.Hanselminutes:
-                    image = "hm_full.jpg";
-                    Title = "Hanselminutes";
-                    break;
-                case MenuType.Ratchet:
-                    image = "ratchet_full.jpg";
-                    Title = "Ratchet & The Geek";
-                    break;
-                case MenuType.DeveloperLife:
-                    image = "tdl_full.jpg";
-                    Title = "This Developer Life";
-                    break;
-            }
+            this.tracker = tracker;
+            image = "ic_queue_music.jpg";
+            Title = "MinMon Podcast";
 
             tracker.TrackScreen(Title);
         }
@@ -81,19 +67,7 @@ namespace WpApp.ViewsModels
             var error = false;
             try {
                 var httpClient = new HttpClient();
-                var feed = string.Empty;
-
-                switch (item) {
-                    case MenuType.Hanselminutes:
-                        feed = "https://www.minmon.de/category/podcast/feed/";
-                        break;
-                    case MenuType.Ratchet:
-                        feed = "http://feeds.feedburner.com/RatchetAndTheGeek?format=xml";
-                        break;
-                    case MenuType.DeveloperLife:
-                        feed = "https://galonga.de/feed/";
-                        break;
-                }
+                var feed  = "https://www.minmon.de/category/podcast/feed/";
                 var responseString = await httpClient.GetStringAsync(feed);
 
                 FeedItems.Clear();

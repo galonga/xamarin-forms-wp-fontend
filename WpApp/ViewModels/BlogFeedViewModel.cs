@@ -7,26 +7,15 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using System.Linq;
 using WpApp.Models;
-using XamarinFormsAnalyticsWrapper.Services;
+using WpApp.Helpers.Tracking;
 
-namespace WpApp.ViewsModels
+namespace WpApp.ViewModels
 {
-    public class BlogFeedViewModel : BaseViewModel
+    public class BlogFeedViewModel : BaseViewModel, IBlogFeedViewModel
     {
-        readonly AppTracker tracker;
-
-        public BlogFeedViewModel()
-        {
-            this.tracker = new AppTracker();
-
-            Title = "Blog";
-            Icon = "blog.png";
-
-            tracker.TrackScreen(Title);
-        }
-
-
-        private ObservableCollection<FeedItem> feedItems = new ObservableCollection<FeedItem>();
+        readonly IAppTracker tracker;
+        ObservableCollection<FeedItem> feedItems = new ObservableCollection<FeedItem>();
+        FeedItem selectedFeedItem;
 
         /// <summary>
         /// gets or sets the feed items
@@ -36,7 +25,16 @@ namespace WpApp.ViewsModels
             set { feedItems = value; OnPropertyChanged(); }
         }
 
-        private FeedItem selectedFeedItem;
+        public BlogFeedViewModel(IAppTracker tracker)
+        {
+            this.tracker = tracker;
+
+            Title = "Blog";
+            Icon = "blog.png";
+
+            tracker.TrackScreen(Title);
+        }
+
         /// <summary>
         /// Gets or sets the selected feed item
         /// </summary>

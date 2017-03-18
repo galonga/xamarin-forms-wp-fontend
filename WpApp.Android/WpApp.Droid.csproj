@@ -39,6 +39,7 @@
     <MonoDroidExtraArgs>
     </MonoDroidExtraArgs>
     <RunCodeAnalysis>false</RunCodeAnalysis>
+    <EnableProguard>true</EnableProguard>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -144,9 +145,6 @@
     <Reference Include="Xamarin.GooglePlayServices.Analytics">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Analytics.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="Splat">
-      <HintPath>..\packages\Splat.1.4.0\lib\monoandroid\Splat.dll</HintPath>
-    </Reference>
     <Reference Include="HockeySDK.AndroidBindings">
       <HintPath>..\packages\HockeySDK.Xamarin.4.1.1\lib\MonoAndroid403\HockeySDK.AndroidBindings.dll</HintPath>
     </Reference>
@@ -182,12 +180,6 @@
     <Reference Include="Xamarin.Forms.Maps">
       <HintPath>..\packages\Xamarin.Forms.Maps.2.3.3.193\lib\MonoAndroid10\Xamarin.Forms.Maps.dll</HintPath>
     </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.1\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Android">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.1\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Android.dll</HintPath>
-    </Reference>
     <Reference Include="ReactiveUI">
       <HintPath>..\packages\reactiveui-core.7.2.0\lib\MonoAndroid403\ReactiveUI.dll</HintPath>
     </Reference>
@@ -196,6 +188,27 @@
     </Reference>
     <Reference Include="Plugin.Share">
       <HintPath>..\packages\Plugin.Share.5.0.0\lib\MonoAndroid10\Plugin.Share.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.Support.Android">
+      <HintPath>..\packages\Acr.Support.2.1.0\lib\MonoAndroid10\Acr.Support.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="AndHUD">
+      <HintPath>..\packages\AndHUD.1.2.0\lib\MonoAndroid\AndHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.1.6.2\lib\monoandroid\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.UserDialogs">
+      <HintPath>..\packages\Acr.UserDialogs.6.3.10\lib\MonoAndroid10\Acr.UserDialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.UserDialogs.Interface">
+      <HintPath>..\packages\Acr.UserDialogs.6.3.10\lib\MonoAndroid10\Acr.UserDialogs.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="BottomNavigationBar">
+      <HintPath>..\packages\BottomNavigationBar.1.1.2\lib\MonoAndroid403\BottomNavigationBar.dll</HintPath>
+    </Reference>
+    <Reference Include="BottomBar.Droid">
+      <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.1\lib\MonoAndroid10\BottomBar.Droid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -253,6 +266,31 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\logo.png" />
     <AndroidResource Include="Resources\drawable-hdpi\logo.png" />
     <AndroidResource Include="Resources\drawable\splashbackground.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_view_list.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_people.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_queue_music.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_queue_music.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Colors.xml" />

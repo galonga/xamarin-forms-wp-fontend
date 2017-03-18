@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WpApp.Models;
-using WpApp.ViewsModels;
+using WpApp.ViewModels;
 using Xamarin.Forms;
 
 namespace WpApp.Views
@@ -19,7 +19,7 @@ namespace WpApp.Views
         public BlogPage()
         {
             InitializeComponent();
-            BindingContext = new BlogFeedViewModel();
+            //BindingContext = new BlogFeedViewModel();
 
             listView.ItemTapped += (sender, args) => {
                 if (listView.SelectedItem == null)

@@ -1,7 +1,7 @@
 ﻿using Plugin.Share;
 using System.Linq;
 using Xamarin.Forms;
-using WpApp.ViewsModels;
+using WpApp.ViewModels;
 using WpApp.Models;
 using WpApp.Helpers;
 
@@ -26,7 +26,7 @@ namespace WpApp.Views
         {
             InitializeComponent();
 
-            BindingContext = new TwitterViewModel();
+            //BindingContext = new TwitterViewModel();
 
             listView.ItemTapped += (sender, args) => {
                 if (listView.SelectedItem == null)

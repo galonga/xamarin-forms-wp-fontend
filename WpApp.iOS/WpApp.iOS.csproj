@@ -129,9 +129,6 @@
     <Reference Include="Google.Analytics">
       <HintPath>..\packages\Xamarin.Google.iOS.Analytics.3.17.0\lib\Xamarin.iOS10\Google.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="Splat">
-      <HintPath>..\packages\Splat.1.4.0\lib\Portable-net45+win+wpa81+wp80\Splat.dll</HintPath>
-    </Reference>
     <Reference Include="HockeySDK">
       <HintPath>..\packages\HockeySDK.Xamarin.4.1.1\lib\Xamarin.iOS10\HockeySDK.dll</HintPath>
     </Reference>
@@ -155,12 +152,6 @@
     <Reference Include="ReactiveUI">
       <HintPath>..\packages\reactiveui-core.7.2.0\lib\Xamarin.iOS10\ReactiveUI.dll</HintPath>
     </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.1\lib\Xamarin.iOS10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.iOS">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.1\lib\Xamarin.iOS10\ImageCircle.Forms.Plugin.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Forms.Core">
       <HintPath>..\packages\Xamarin.Forms.2.3.3.193\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
@@ -172,6 +163,21 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.3.3.193\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="BottomBar.XamarinForms">
+      <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.1\lib\portable-net45+win+wp80+MonoAndroid10+xamarinios10+MonoTouch10\BottomBar.XamarinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.Support.iOS">
+      <HintPath>..\packages\Acr.Support.2.1.0\lib\Xamarin.iOS10\Acr.Support.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.1.6.2\lib\Xamarin.iOS10\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.UserDialogs">
+      <HintPath>..\packages\Acr.UserDialogs.6.3.10\lib\Xamarin.iOS10\Acr.UserDialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.UserDialogs.Interface">
+      <HintPath>..\packages\Acr.UserDialogs.6.3.10\lib\Xamarin.iOS10\Acr.UserDialogs.Interface.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -235,6 +241,21 @@
     <BundleResource Include="Resources\logo.png" />
     <BundleResource Include="Resources\logo%402x.png" />
     <BundleResource Include="Resources\logo%403x.png" />
+    <BundleResource Include="Resources\ic_home_2x.png" />
+    <BundleResource Include="Resources\ic_home_3x.png" />
+    <BundleResource Include="Resources\ic_home.png" />
+    <BundleResource Include="Resources\ic_settings_2x.png" />
+    <BundleResource Include="Resources\ic_settings_3x.png" />
+    <BundleResource Include="Resources\ic_settings.png" />
+    <BundleResource Include="Resources\ic_view_list_2x.png" />
+    <BundleResource Include="Resources\ic_view_list_3x.png" />
+    <BundleResource Include="Resources\ic_view_list.png" />
+    <BundleResource Include="Resources\ic_people_2x.png" />
+    <BundleResource Include="Resources\ic_people_3x.png" />
+    <BundleResource Include="Resources\ic_people.png" />
+    <BundleResource Include="Resources\ic_queue_music_2x.png" />
+    <BundleResource Include="Resources\ic_queue_music_3x.png" />
+    <BundleResource Include="Resources\ic_queue_music.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

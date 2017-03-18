@@ -8,12 +8,12 @@ using Android.OS;
 using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms;
 using Android.Content.PM;
-using Android.Graphics.Drawables;
-using ImageCircle.Forms.Plugin.Droid;
 using XamarinFormsAnalyticsWrapper.Droid.Services;
 using HockeyApp.Android;
 using HockeyApp.Android.Metrics;
 using HockeyApp.Android.Utils;
+using Acr.UserDialogs;
+using ReactiveUI;
 
 namespace WpApp.Droid
 {
@@ -24,6 +24,11 @@ namespace WpApp.Droid
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : FormsAppCompatActivity
     {
+        public MainActivity()
+        {
+            RxApp.SuspensionHost.CreateNewAppState = () => new Bootstrap();
+            RxApp.SuspensionHost.SetupDefaultSuspendResume();
+        }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -41,12 +46,14 @@ namespace WpApp.Droid
             base.OnCreate(savedInstanceState);
 
             Forms.Init(this, savedInstanceState);
-            ImageCircleRenderer.Init();
-
+            UserDialogs.Init(() => (Activity)Forms.Context);
             var gaService = AnalyticsService.GetGASInstance();
             gaService.Init("UA-87598000-1", this, 5);
 
-            LoadApplication(new App());
+            var bootstrap = RxApp.SuspensionHost.GetAppState<Bootstrap>();
+            var app = bootstrap.InitApp();
+
+            LoadApplication(app);
         }
     }
 }

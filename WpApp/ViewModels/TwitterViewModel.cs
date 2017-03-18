@@ -7,19 +7,19 @@ using System.Linq;
 using WpApp.Models;
 using WpApp.Helpers;
 using XamarinFormsAnalyticsWrapper.Services;
+using WpApp.Helpers.Tracking;
 
-namespace WpApp.ViewsModels
+namespace WpApp.ViewModels
 {
-    public class TwitterViewModel : BaseViewModel
+    public class TwitterViewModel : BaseViewModel, ITwitterViewModel
     {
         public ObservableCollection<Tweet> Tweets { get; set; }
 
-        readonly AppTracker tracker;
+        readonly IAppTracker tracker;
 
-        public TwitterViewModel()
+        public TwitterViewModel(IAppTracker tracker)
         {
-            this.tracker = new AppTracker();
-
+            this.tracker = tracker;
             Title = "Twitter";
             Icon = "slideout.png";
             Tweets = new ObservableCollection<Tweet>();

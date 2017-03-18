@@ -5,15 +5,21 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using ImageCircle.Forms.Plugin.iOS;
 using XamarinFormsAnalyticsWrapper.iOS.Services;
 using HockeyApp.iOS;
+using ReactiveUI;
 
 namespace WpApp.iOS
 {
     [Foundation.Register("AppDelegate")]
     public partial class AppDelegate : FormsApplicationDelegate
     {
+        AutoSuspendHelper suspendHelper;
+
+        public AppDelegate()
+        {
+            RxApp.SuspensionHost.CreateNewAppState = () => new Bootstrap();
+        }
 
         //
         // This method is invoked when the application has loaded and is ready to run. In this
@@ -39,17 +45,35 @@ namespace WpApp.iOS
             manager.StartManager();
             manager.Authenticator.AuthenticateInstallation();
 
-            Forms.Init();
-
             var gaService = AnalyticsService.GetGASInstance();
             gaService.Init("UA-87598000-1", 5);
 
-            ImageCircleRenderer.Init();
+            Forms.Init();
 
-            LoadApplication(new App());
 
+            RxApp.SuspensionHost.SetupDefaultSuspendResume();
+            suspendHelper = new AutoSuspendHelper(this);
+            suspendHelper.FinishedLaunching(app, options);
+
+            var bootstrap = RxApp.SuspensionHost.GetAppState<Bootstrap>();
+            var application = bootstrap.InitApp();
+
+            LoadApplication(application);
 
             return base.FinishedLaunching(app, options);
+        }
+
+        public override void OnActivated(UIApplication uiApplication)
+        {
+            base.OnActivated(uiApplication);
+            suspendHelper.OnActivated(uiApplication);
+            uiApplication.ApplicationIconBadgeNumber = 0;
+        }
+
+        public override void DidEnterBackground(UIApplication uiApplication)
+        {
+            base.DidEnterBackground(uiApplication);
+            suspendHelper.DidEnterBackground(uiApplication);
         }
     }
 }
