@@ -62,7 +62,6 @@
     <Compile Include="Views\AboutPage.xaml.cs">
       <DependentUpon>AboutPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\BlogDetailsView.cs" />
     <Compile Include="Views\BlogPage.xaml.cs">
       <DependentUpon>BlogPage.xaml</DependentUpon>
@@ -89,6 +88,10 @@
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Common\Extensions\CommandExtension.cs" />
+    <Compile Include="Common\Extensions\LoadingExtension.cs" />
+    <Compile Include="Common\Views\Converter\InverseBoolConverter.cs" />
+    <Compile Include="Common\Views\Pages\BaseContentPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="LinqToTwitterPcl">
@@ -130,9 +133,6 @@
       <HintPath>..\packages\Xamarin.Forms.2.0.1.6495\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Design\Xamarin.Forms.Xaml.Design.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Splat">
-      <HintPath>..\packages\Splat.1.4.0\lib\Portable-net45+win+wpa81+wp80\Splat.dll</HintPath>
-    </Reference>
     <Reference Include="HockeySDK">
       <HintPath>..\packages\HockeySDK.Xamarin.4.1.1\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\HockeySDK.dll</HintPath>
     </Reference>
@@ -165,6 +165,15 @@
     </Reference>
     <Reference Include="BottomBar.XamarinForms">
       <HintPath>..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.1\lib\portable-net45+win+wp80+MonoAndroid10+xamarinios10+MonoTouch10\BottomBar.XamarinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.1.6.2\lib\Portable-net45+win+wpa81+wp80\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.UserDialogs">
+      <HintPath>..\packages\Acr.UserDialogs.6.3.10\lib\portable-win+net45+wp8+win8+wpa81\Acr.UserDialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.UserDialogs.Interface">
+      <HintPath>..\packages\Acr.UserDialogs.6.3.10\lib\portable-win+net45+wp8+win8+wpa81\Acr.UserDialogs.Interface.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -229,6 +238,11 @@
   <ItemGroup />
   <ItemGroup>
     <Folder Include="Helpers\Tracking\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Extensions\" />
+    <Folder Include="Common\Views\" />
+    <Folder Include="Common\Views\Converter\" />
+    <Folder Include="Common\Views\Pages\" />
   </ItemGroup>
   <Import Project="..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
 </Project>

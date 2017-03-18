@@ -26,7 +26,6 @@ namespace WpApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Splat.Resource.String.library_name = global::WpApp.Droid.Resource.String.library_name;
 			global::HockeyApp.Resource.Color.hockeyapp_background_header = global::WpApp.Droid.Resource.Color.hockeyapp_background_header;
 			global::HockeyApp.Resource.Color.hockeyapp_background_light = global::WpApp.Droid.Resource.Color.hockeyapp_background_light;
 			global::HockeyApp.Resource.Color.hockeyapp_background_white = global::WpApp.Droid.Resource.Color.hockeyapp_background_white;
@@ -1947,6 +1946,1832 @@ namespace WpApp.Droid
 			global::XamarinFormsAnalyticsWrapper.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::WpApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::XamarinFormsAnalyticsWrapper.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::WpApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::WpApp.Droid.Resource.Attribute.actionBarSize;
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::WpApp.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::WpApp.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::WpApp.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::WpApp.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::WpApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::WpApp.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::WpApp.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::WpApp.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::WpApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::WpApp.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::WpApp.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::WpApp.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::WpApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::WpApp.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::WpApp.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::WpApp.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::WpApp.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::WpApp.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::WpApp.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::WpApp.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::WpApp.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::WpApp.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::WpApp.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::WpApp.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::WpApp.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::WpApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
+			global::Splat.Resource.String.library_name = global::WpApp.Droid.Resource.String.library_name;
+			global::PCLStorage.Resource.String.ApplicationName = global::WpApp.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::WpApp.Droid.Resource.String.Hello;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_fade_in = global::WpApp.Droid.Resource.Animation.abc_fade_in;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_fade_out = global::WpApp.Droid.Resource.Animation.abc_fade_out;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::WpApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_popup_enter = global::WpApp.Droid.Resource.Animation.abc_popup_enter;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_popup_exit = global::WpApp.Droid.Resource.Animation.abc_popup_exit;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::WpApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_slide_in_bottom = global::WpApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_slide_in_top = global::WpApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_slide_out_bottom = global::WpApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.abc_slide_out_top = global::WpApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.design_bottom_sheet_slide_in = global::WpApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.design_bottom_sheet_slide_out = global::WpApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.design_fab_in = global::WpApp.Droid.Resource.Animation.design_fab_in;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.design_fab_out = global::WpApp.Droid.Resource.Animation.design_fab_out;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.design_snackbar_in = global::WpApp.Droid.Resource.Animation.design_snackbar_in;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Animation.design_snackbar_out = global::WpApp.Droid.Resource.Animation.design_snackbar_out;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.MediaRouteControllerWindowBackground = global::WpApp.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarDivider = global::WpApp.Droid.Resource.Attribute.actionBarDivider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarItemBackground = global::WpApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarPopupTheme = global::WpApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarSize = global::WpApp.Droid.Resource.Attribute.actionBarSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarSplitStyle = global::WpApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarStyle = global::WpApp.Droid.Resource.Attribute.actionBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarTabBarStyle = global::WpApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarTabStyle = global::WpApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarTabTextStyle = global::WpApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarTheme = global::WpApp.Droid.Resource.Attribute.actionBarTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionBarWidgetTheme = global::WpApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionButtonStyle = global::WpApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionDropDownStyle = global::WpApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionLayout = global::WpApp.Droid.Resource.Attribute.actionLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionMenuTextAppearance = global::WpApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionMenuTextColor = global::WpApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeBackground = global::WpApp.Droid.Resource.Attribute.actionModeBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeCloseButtonStyle = global::WpApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeCloseDrawable = global::WpApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeCopyDrawable = global::WpApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeCutDrawable = global::WpApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeFindDrawable = global::WpApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModePasteDrawable = global::WpApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModePopupWindowStyle = global::WpApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeSelectAllDrawable = global::WpApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeShareDrawable = global::WpApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeSplitBackground = global::WpApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeStyle = global::WpApp.Droid.Resource.Attribute.actionModeStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionModeWebSearchDrawable = global::WpApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionOverflowButtonStyle = global::WpApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionOverflowMenuStyle = global::WpApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionProviderClass = global::WpApp.Droid.Resource.Attribute.actionProviderClass;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.actionViewClass = global::WpApp.Droid.Resource.Attribute.actionViewClass;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.activityChooserViewStyle = global::WpApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::WpApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.alertDialogCenterButtons = global::WpApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.alertDialogStyle = global::WpApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.alertDialogTheme = global::WpApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.allowStacking = global::WpApp.Droid.Resource.Attribute.allowStacking;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.arrowHeadLength = global::WpApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.arrowShaftLength = global::WpApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.autoCompleteTextViewStyle = global::WpApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.background = global::WpApp.Droid.Resource.Attribute.background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.backgroundSplit = global::WpApp.Droid.Resource.Attribute.backgroundSplit;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.backgroundStacked = global::WpApp.Droid.Resource.Attribute.backgroundStacked;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.backgroundTint = global::WpApp.Droid.Resource.Attribute.backgroundTint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.backgroundTintMode = global::WpApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.barLength = global::WpApp.Droid.Resource.Attribute.barLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.behavior_hideable = global::WpApp.Droid.Resource.Attribute.behavior_hideable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.behavior_overlapTop = global::WpApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.behavior_peekHeight = global::WpApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.borderWidth = global::WpApp.Droid.Resource.Attribute.borderWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.borderlessButtonStyle = global::WpApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.bottomSheetDialogTheme = global::WpApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.bottomSheetStyle = global::WpApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonBarButtonStyle = global::WpApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::WpApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::WpApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::WpApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonBarStyle = global::WpApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonPanelSideLayout = global::WpApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonStyle = global::WpApp.Droid.Resource.Attribute.buttonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonStyleSmall = global::WpApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonTint = global::WpApp.Droid.Resource.Attribute.buttonTint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.buttonTintMode = global::WpApp.Droid.Resource.Attribute.buttonTintMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.cardBackgroundColor = global::WpApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.cardCornerRadius = global::WpApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.cardElevation = global::WpApp.Droid.Resource.Attribute.cardElevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.cardMaxElevation = global::WpApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.cardPreventCornerOverlap = global::WpApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.cardUseCompatPadding = global::WpApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.checkboxStyle = global::WpApp.Droid.Resource.Attribute.checkboxStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.checkedTextViewStyle = global::WpApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.closeIcon = global::WpApp.Droid.Resource.Attribute.closeIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.closeItemLayout = global::WpApp.Droid.Resource.Attribute.closeItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.collapseContentDescription = global::WpApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.collapseIcon = global::WpApp.Droid.Resource.Attribute.collapseIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.collapsedTitleGravity = global::WpApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.collapsedTitleTextAppearance = global::WpApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.color = global::WpApp.Droid.Resource.Attribute.color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorAccent = global::WpApp.Droid.Resource.Attribute.colorAccent;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorButtonNormal = global::WpApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorControlActivated = global::WpApp.Droid.Resource.Attribute.colorControlActivated;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorControlHighlight = global::WpApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorControlNormal = global::WpApp.Droid.Resource.Attribute.colorControlNormal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorPrimary = global::WpApp.Droid.Resource.Attribute.colorPrimary;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorPrimaryDark = global::WpApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.colorSwitchThumbNormal = global::WpApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.commitIcon = global::WpApp.Droid.Resource.Attribute.commitIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentInsetEnd = global::WpApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentInsetLeft = global::WpApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentInsetRight = global::WpApp.Droid.Resource.Attribute.contentInsetRight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentInsetStart = global::WpApp.Droid.Resource.Attribute.contentInsetStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentPadding = global::WpApp.Droid.Resource.Attribute.contentPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentPaddingBottom = global::WpApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentPaddingLeft = global::WpApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentPaddingRight = global::WpApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentPaddingTop = global::WpApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.contentScrim = global::WpApp.Droid.Resource.Attribute.contentScrim;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.controlBackground = global::WpApp.Droid.Resource.Attribute.controlBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.counterEnabled = global::WpApp.Droid.Resource.Attribute.counterEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.counterMaxLength = global::WpApp.Droid.Resource.Attribute.counterMaxLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.counterOverflowTextAppearance = global::WpApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.counterTextAppearance = global::WpApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.customNavigationLayout = global::WpApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.defaultQueryHint = global::WpApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.dialogPreferredPadding = global::WpApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.dialogTheme = global::WpApp.Droid.Resource.Attribute.dialogTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.displayOptions = global::WpApp.Droid.Resource.Attribute.displayOptions;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.divider = global::WpApp.Droid.Resource.Attribute.divider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.dividerHorizontal = global::WpApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.dividerPadding = global::WpApp.Droid.Resource.Attribute.dividerPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.dividerVertical = global::WpApp.Droid.Resource.Attribute.dividerVertical;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.drawableSize = global::WpApp.Droid.Resource.Attribute.drawableSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.drawerArrowStyle = global::WpApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.dropDownListViewStyle = global::WpApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::WpApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.editTextBackground = global::WpApp.Droid.Resource.Attribute.editTextBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.editTextColor = global::WpApp.Droid.Resource.Attribute.editTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.editTextStyle = global::WpApp.Droid.Resource.Attribute.editTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.elevation = global::WpApp.Droid.Resource.Attribute.elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.errorEnabled = global::WpApp.Droid.Resource.Attribute.errorEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.errorTextAppearance = global::WpApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::WpApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expanded = global::WpApp.Droid.Resource.Attribute.expanded;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandedTitleGravity = global::WpApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandedTitleMargin = global::WpApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandedTitleMarginBottom = global::WpApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandedTitleMarginEnd = global::WpApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandedTitleMarginStart = global::WpApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandedTitleMarginTop = global::WpApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.expandedTitleTextAppearance = global::WpApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.externalRouteEnabledDrawable = global::WpApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.fabSize = global::WpApp.Droid.Resource.Attribute.fabSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.foregroundInsidePadding = global::WpApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.gapBetweenBars = global::WpApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.goIcon = global::WpApp.Droid.Resource.Attribute.goIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.headerLayout = global::WpApp.Droid.Resource.Attribute.headerLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.height = global::WpApp.Droid.Resource.Attribute.height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.hideOnContentScroll = global::WpApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.hintAnimationEnabled = global::WpApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.hintEnabled = global::WpApp.Droid.Resource.Attribute.hintEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.hintTextAppearance = global::WpApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.homeAsUpIndicator = global::WpApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.homeLayout = global::WpApp.Droid.Resource.Attribute.homeLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.icon = global::WpApp.Droid.Resource.Attribute.icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.iconifiedByDefault = global::WpApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.imageButtonStyle = global::WpApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.indeterminateProgressStyle = global::WpApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.initialActivityCount = global::WpApp.Droid.Resource.Attribute.initialActivityCount;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.insetForeground = global::WpApp.Droid.Resource.Attribute.insetForeground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.isLightTheme = global::WpApp.Droid.Resource.Attribute.isLightTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.itemBackground = global::WpApp.Droid.Resource.Attribute.itemBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.itemIconTint = global::WpApp.Droid.Resource.Attribute.itemIconTint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.itemPadding = global::WpApp.Droid.Resource.Attribute.itemPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.itemTextAppearance = global::WpApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.itemTextColor = global::WpApp.Droid.Resource.Attribute.itemTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.keylines = global::WpApp.Droid.Resource.Attribute.keylines;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout = global::WpApp.Droid.Resource.Attribute.layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layoutManager = global::WpApp.Droid.Resource.Attribute.layoutManager;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_anchor = global::WpApp.Droid.Resource.Attribute.layout_anchor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_anchorGravity = global::WpApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_behavior = global::WpApp.Droid.Resource.Attribute.layout_behavior;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_collapseMode = global::WpApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::WpApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_keyline = global::WpApp.Droid.Resource.Attribute.layout_keyline;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_scrollFlags = global::WpApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.layout_scrollInterpolator = global::WpApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::WpApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listDividerAlertDialog = global::WpApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listItemLayout = global::WpApp.Droid.Resource.Attribute.listItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listLayout = global::WpApp.Droid.Resource.Attribute.listLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listPopupWindowStyle = global::WpApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listPreferredItemHeight = global::WpApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listPreferredItemHeightLarge = global::WpApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listPreferredItemHeightSmall = global::WpApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::WpApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.listPreferredItemPaddingRight = global::WpApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.logo = global::WpApp.Droid.Resource.Attribute.logo;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.logoDescription = global::WpApp.Droid.Resource.Attribute.logoDescription;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.maxActionInlineWidth = global::WpApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.maxButtonHeight = global::WpApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.measureWithLargestChild = global::WpApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteButtonStyle = global::WpApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteCastDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::WpApp.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::WpApp.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteCloseDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteConnectingDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::WpApp.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::WpApp.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::WpApp.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteExpandGroupDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteOffDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteOnDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRoutePauseDrawable = global::WpApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRoutePlayDrawable = global::WpApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::WpApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.menu = global::WpApp.Droid.Resource.Attribute.menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.multiChoiceItemLayout = global::WpApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.navigationContentDescription = global::WpApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.navigationIcon = global::WpApp.Droid.Resource.Attribute.navigationIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.navigationMode = global::WpApp.Droid.Resource.Attribute.navigationMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.overlapAnchor = global::WpApp.Droid.Resource.Attribute.overlapAnchor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.paddingEnd = global::WpApp.Droid.Resource.Attribute.paddingEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.paddingStart = global::WpApp.Droid.Resource.Attribute.paddingStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.panelBackground = global::WpApp.Droid.Resource.Attribute.panelBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.panelMenuListTheme = global::WpApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.panelMenuListWidth = global::WpApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.popupMenuStyle = global::WpApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.popupTheme = global::WpApp.Droid.Resource.Attribute.popupTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.popupWindowStyle = global::WpApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.preserveIconSpacing = global::WpApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.pressedTranslationZ = global::WpApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.progressBarPadding = global::WpApp.Droid.Resource.Attribute.progressBarPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.progressBarStyle = global::WpApp.Droid.Resource.Attribute.progressBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.queryBackground = global::WpApp.Droid.Resource.Attribute.queryBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.queryHint = global::WpApp.Droid.Resource.Attribute.queryHint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.radioButtonStyle = global::WpApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.ratingBarStyle = global::WpApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.ratingBarStyleIndicator = global::WpApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.ratingBarStyleSmall = global::WpApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.reverseLayout = global::WpApp.Droid.Resource.Attribute.reverseLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.rippleColor = global::WpApp.Droid.Resource.Attribute.rippleColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.searchHintIcon = global::WpApp.Droid.Resource.Attribute.searchHintIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.searchIcon = global::WpApp.Droid.Resource.Attribute.searchIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.searchViewStyle = global::WpApp.Droid.Resource.Attribute.searchViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.seekBarStyle = global::WpApp.Droid.Resource.Attribute.seekBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.selectableItemBackground = global::WpApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::WpApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.showAsAction = global::WpApp.Droid.Resource.Attribute.showAsAction;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.showDividers = global::WpApp.Droid.Resource.Attribute.showDividers;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.showText = global::WpApp.Droid.Resource.Attribute.showText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.singleChoiceItemLayout = global::WpApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.spanCount = global::WpApp.Droid.Resource.Attribute.spanCount;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.spinBars = global::WpApp.Droid.Resource.Attribute.spinBars;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.spinnerDropDownItemStyle = global::WpApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.spinnerStyle = global::WpApp.Droid.Resource.Attribute.spinnerStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.splitTrack = global::WpApp.Droid.Resource.Attribute.splitTrack;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.srcCompat = global::WpApp.Droid.Resource.Attribute.srcCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.stackFromEnd = global::WpApp.Droid.Resource.Attribute.stackFromEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.state_above_anchor = global::WpApp.Droid.Resource.Attribute.state_above_anchor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.statusBarBackground = global::WpApp.Droid.Resource.Attribute.statusBarBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.statusBarScrim = global::WpApp.Droid.Resource.Attribute.statusBarScrim;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.submitBackground = global::WpApp.Droid.Resource.Attribute.submitBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.subtitle = global::WpApp.Droid.Resource.Attribute.subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.subtitleTextAppearance = global::WpApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.subtitleTextColor = global::WpApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.subtitleTextStyle = global::WpApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.suggestionRowLayout = global::WpApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.switchMinWidth = global::WpApp.Droid.Resource.Attribute.switchMinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.switchPadding = global::WpApp.Droid.Resource.Attribute.switchPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.switchStyle = global::WpApp.Droid.Resource.Attribute.switchStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.switchTextAppearance = global::WpApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabBackground = global::WpApp.Droid.Resource.Attribute.tabBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabContentStart = global::WpApp.Droid.Resource.Attribute.tabContentStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabGravity = global::WpApp.Droid.Resource.Attribute.tabGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabIndicatorColor = global::WpApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabIndicatorHeight = global::WpApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabMaxWidth = global::WpApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabMinWidth = global::WpApp.Droid.Resource.Attribute.tabMinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabMode = global::WpApp.Droid.Resource.Attribute.tabMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabPadding = global::WpApp.Droid.Resource.Attribute.tabPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabPaddingBottom = global::WpApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabPaddingEnd = global::WpApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabPaddingStart = global::WpApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabPaddingTop = global::WpApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabSelectedTextColor = global::WpApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabTextAppearance = global::WpApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.tabTextColor = global::WpApp.Droid.Resource.Attribute.tabTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textAllCaps = global::WpApp.Droid.Resource.Attribute.textAllCaps;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::WpApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textAppearanceListItem = global::WpApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textAppearanceListItemSmall = global::WpApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::WpApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::WpApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::WpApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textColorAlertDialogListItem = global::WpApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textColorError = global::WpApp.Droid.Resource.Attribute.textColorError;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.textColorSearchUrl = global::WpApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.theme = global::WpApp.Droid.Resource.Attribute.theme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.thickness = global::WpApp.Droid.Resource.Attribute.thickness;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.thumbTextPadding = global::WpApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.title = global::WpApp.Droid.Resource.Attribute.title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleEnabled = global::WpApp.Droid.Resource.Attribute.titleEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleMarginBottom = global::WpApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleMarginEnd = global::WpApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleMarginStart = global::WpApp.Droid.Resource.Attribute.titleMarginStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleMarginTop = global::WpApp.Droid.Resource.Attribute.titleMarginTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleMargins = global::WpApp.Droid.Resource.Attribute.titleMargins;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleTextAppearance = global::WpApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleTextColor = global::WpApp.Droid.Resource.Attribute.titleTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.titleTextStyle = global::WpApp.Droid.Resource.Attribute.titleTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.toolbarId = global::WpApp.Droid.Resource.Attribute.toolbarId;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::WpApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.toolbarStyle = global::WpApp.Droid.Resource.Attribute.toolbarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.track = global::WpApp.Droid.Resource.Attribute.track;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.useCompatPadding = global::WpApp.Droid.Resource.Attribute.useCompatPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.voiceIcon = global::WpApp.Droid.Resource.Attribute.voiceIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowActionBar = global::WpApp.Droid.Resource.Attribute.windowActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowActionBarOverlay = global::WpApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowActionModeOverlay = global::WpApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowFixedHeightMajor = global::WpApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowFixedHeightMinor = global::WpApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowFixedWidthMajor = global::WpApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowFixedWidthMinor = global::WpApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowMinWidthMajor = global::WpApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowMinWidthMinor = global::WpApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Attribute.windowNoTitle = global::WpApp.Droid.Resource.Attribute.windowNoTitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::WpApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::WpApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::WpApp.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::WpApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::WpApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::WpApp.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::WpApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::WpApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::WpApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::WpApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_color_highlight_material = global::WpApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_input_method_navigation_guard = global::WpApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::WpApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::WpApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_primary_text_material_dark = global::WpApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_primary_text_material_light = global::WpApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_search_url_text = global::WpApp.Droid.Resource.Color.abc_search_url_text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_search_url_text_normal = global::WpApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_search_url_text_pressed = global::WpApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_search_url_text_selected = global::WpApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_secondary_text_material_dark = global::WpApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.abc_secondary_text_material_light = global::WpApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.accent_material_dark = global::WpApp.Droid.Resource.Color.accent_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.accent_material_light = global::WpApp.Droid.Resource.Color.accent_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.background_floating_material_dark = global::WpApp.Droid.Resource.Color.background_floating_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.background_floating_material_light = global::WpApp.Droid.Resource.Color.background_floating_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.background_material_dark = global::WpApp.Droid.Resource.Color.background_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.background_material_light = global::WpApp.Droid.Resource.Color.background_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.bright_foreground_disabled_material_dark = global::WpApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.bright_foreground_disabled_material_light = global::WpApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.bright_foreground_inverse_material_dark = global::WpApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.bright_foreground_inverse_material_light = global::WpApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.bright_foreground_material_dark = global::WpApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.bright_foreground_material_light = global::WpApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.button_material_dark = global::WpApp.Droid.Resource.Color.button_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.button_material_light = global::WpApp.Droid.Resource.Color.button_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.cardview_dark_background = global::WpApp.Droid.Resource.Color.cardview_dark_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.cardview_light_background = global::WpApp.Droid.Resource.Color.cardview_light_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.cardview_shadow_end_color = global::WpApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.cardview_shadow_start_color = global::WpApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_fab_shadow_end_color = global::WpApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_fab_shadow_mid_color = global::WpApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_fab_shadow_start_color = global::WpApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_fab_stroke_end_inner_color = global::WpApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_fab_stroke_end_outer_color = global::WpApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_fab_stroke_top_inner_color = global::WpApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_fab_stroke_top_outer_color = global::WpApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_snackbar_background_color = global::WpApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_textinput_error_color_dark = global::WpApp.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.design_textinput_error_color_light = global::WpApp.Droid.Resource.Color.design_textinput_error_color_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.dim_foreground_disabled_material_dark = global::WpApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.dim_foreground_disabled_material_light = global::WpApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.dim_foreground_material_dark = global::WpApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.dim_foreground_material_light = global::WpApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.foreground_material_dark = global::WpApp.Droid.Resource.Color.foreground_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.foreground_material_light = global::WpApp.Droid.Resource.Color.foreground_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.highlighted_text_material_dark = global::WpApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.highlighted_text_material_light = global::WpApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.hint_foreground_material_dark = global::WpApp.Droid.Resource.Color.hint_foreground_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.hint_foreground_material_light = global::WpApp.Droid.Resource.Color.hint_foreground_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_blue_grey_800 = global::WpApp.Droid.Resource.Color.material_blue_grey_800;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_blue_grey_900 = global::WpApp.Droid.Resource.Color.material_blue_grey_900;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_blue_grey_950 = global::WpApp.Droid.Resource.Color.material_blue_grey_950;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_deep_teal_200 = global::WpApp.Droid.Resource.Color.material_deep_teal_200;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_deep_teal_500 = global::WpApp.Droid.Resource.Color.material_deep_teal_500;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_grey_100 = global::WpApp.Droid.Resource.Color.material_grey_100;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_grey_300 = global::WpApp.Droid.Resource.Color.material_grey_300;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_grey_50 = global::WpApp.Droid.Resource.Color.material_grey_50;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_grey_600 = global::WpApp.Droid.Resource.Color.material_grey_600;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_grey_800 = global::WpApp.Droid.Resource.Color.material_grey_800;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_grey_850 = global::WpApp.Droid.Resource.Color.material_grey_850;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.material_grey_900 = global::WpApp.Droid.Resource.Color.material_grey_900;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_dark_material_dark = global::WpApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_dark_material_light = global::WpApp.Droid.Resource.Color.primary_dark_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_material_dark = global::WpApp.Droid.Resource.Color.primary_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_material_light = global::WpApp.Droid.Resource.Color.primary_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_text_default_material_dark = global::WpApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_text_default_material_light = global::WpApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_text_disabled_material_dark = global::WpApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.primary_text_disabled_material_light = global::WpApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.ripple_material_dark = global::WpApp.Droid.Resource.Color.ripple_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.ripple_material_light = global::WpApp.Droid.Resource.Color.ripple_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.secondary_text_default_material_dark = global::WpApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.secondary_text_default_material_light = global::WpApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.secondary_text_disabled_material_dark = global::WpApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.secondary_text_disabled_material_light = global::WpApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.switch_thumb_disabled_material_dark = global::WpApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.switch_thumb_disabled_material_light = global::WpApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.switch_thumb_material_dark = global::WpApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.switch_thumb_material_light = global::WpApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.switch_thumb_normal_material_dark = global::WpApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Color.switch_thumb_normal_material_light = global::WpApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_default_height_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::WpApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::WpApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::WpApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::WpApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_button_min_height_material = global::WpApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_button_min_width_material = global::WpApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::WpApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::WpApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::WpApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_button_inset_vertical_material = global::WpApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::WpApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_button_padding_vertical_material = global::WpApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_config_prefDialogWidth = global::WpApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_control_corner_material = global::WpApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_control_inset_material = global::WpApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_control_padding_material = global::WpApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::WpApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::WpApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::WpApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::WpApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::WpApp.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_min_width_major = global::WpApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_min_width_minor = global::WpApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_padding_material = global::WpApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dialog_padding_top_material = global::WpApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::WpApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::WpApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::WpApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::WpApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::WpApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::WpApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::WpApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::WpApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_floating_window_z = global::WpApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::WpApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_panel_menu_list_width = global::WpApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_search_view_preferred_width = global::WpApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_search_view_text_min_width = global::WpApp.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::WpApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::WpApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::WpApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_switch_padding = global::WpApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_body_1_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_body_2_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_button_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_caption_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_display_1_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_display_2_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_display_3_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_display_4_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_headline_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_large_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_medium_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_menu_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_small_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_subhead_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::WpApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_title_material = global::WpApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::WpApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.cardview_compat_inset_shadow = global::WpApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.cardview_default_elevation = global::WpApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.cardview_default_radius = global::WpApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_appbar_elevation = global::WpApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::WpApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::WpApp.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_fab_border_width = global::WpApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_fab_elevation = global::WpApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_fab_image_size = global::WpApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_fab_size_mini = global::WpApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_fab_size_normal = global::WpApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_fab_translation_z_pressed = global::WpApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_navigation_elevation = global::WpApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_navigation_icon_padding = global::WpApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_navigation_icon_size = global::WpApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_navigation_max_width = global::WpApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_navigation_padding_bottom = global::WpApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::WpApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::WpApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::WpApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_elevation = global::WpApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::WpApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_max_width = global::WpApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_min_width = global::WpApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::WpApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_padding_vertical = global::WpApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::WpApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_snackbar_text_size = global::WpApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_tab_max_width = global::WpApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_tab_scrollable_min_width = global::WpApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_tab_text_size = global::WpApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.design_tab_text_size_2line = global::WpApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.disabled_alpha_material_dark = global::WpApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.disabled_alpha_material_light = global::WpApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.highlight_alpha_material_colored = global::WpApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.highlight_alpha_material_dark = global::WpApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.highlight_alpha_material_light = global::WpApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::WpApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::WpApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::WpApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::WpApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::WpApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::WpApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::WpApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::WpApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::WpApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.notification_large_icon_height = global::WpApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.notification_large_icon_width = global::WpApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Dimension.notification_subtext_size = global::WpApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_action_bar_item_background_material = global::WpApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_borderless_material = global::WpApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_check_material = global::WpApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::WpApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::WpApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_colored_material = global::WpApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::WpApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_radio_material = global::WpApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::WpApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::WpApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::WpApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::WpApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_cab_background_internal_bg = global::WpApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_cab_background_top_material = global::WpApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_control_background_material = global::WpApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_dialog_material_background_dark = global::WpApp.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_dialog_material_background_light = global::WpApp.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_edit_text_material = global::WpApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_star_black_16dp = global::WpApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_star_black_36dp = global::WpApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::WpApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::WpApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_item_background_holo_dark = global::WpApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_item_background_holo_light = global::WpApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_focused_holo = global::WpApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_longpressed_holo = global::WpApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::WpApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_pressed_holo_light = global::WpApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::WpApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::WpApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::WpApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::WpApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_selector_holo_dark = global::WpApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_list_selector_holo_light = global::WpApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::WpApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::WpApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ratingbar_full_material = global::WpApp.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::WpApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_ratingbar_small_material = global::WpApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::WpApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::WpApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_seekbar_thumb_material = global::WpApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_seekbar_track_material = global::WpApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::WpApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::WpApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_switch_thumb_material = global::WpApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_tab_indicator_material = global::WpApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_text_cursor_material = global::WpApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::WpApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.abc_textfield_search_material = global::WpApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.design_fab_background = global::WpApp.Droid.Resource.Drawable.design_fab_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.design_snackbar_background = global::WpApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_audiotrack = global::WpApp.Droid.Resource.Drawable.ic_audiotrack;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_audiotrack_light = global::WpApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_bluetooth_grey = global::WpApp.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_bluetooth_white = global::WpApp.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_dark = global::WpApp.Droid.Resource.Drawable.ic_cast_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_disabled_light = global::WpApp.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_grey = global::WpApp.Droid.Resource.Drawable.ic_cast_grey;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_light = global::WpApp.Droid.Resource.Drawable.ic_cast_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_off_light = global::WpApp.Droid.Resource.Drawable.ic_cast_off_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_on_0_light = global::WpApp.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_on_1_light = global::WpApp.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_on_2_light = global::WpApp.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_on_light = global::WpApp.Droid.Resource.Drawable.ic_cast_on_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_cast_white = global::WpApp.Droid.Resource.Drawable.ic_cast_white;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_close_dark = global::WpApp.Droid.Resource.Drawable.ic_close_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_close_light = global::WpApp.Droid.Resource.Drawable.ic_close_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse = global::WpApp.Droid.Resource.Drawable.ic_collapse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00000 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00000;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00001 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00001;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00002 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00002;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00003 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00003;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00004 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00004;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00005 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00005;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00006 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00006;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00007 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00007;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00008 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00008;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00009 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00009;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00010 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00010;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00011 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00011;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00012 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00012;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00013 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00013;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00014 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00014;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_collapse_00015 = global::WpApp.Droid.Resource.Drawable.ic_collapse_00015;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand = global::WpApp.Droid.Resource.Drawable.ic_expand;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00000 = global::WpApp.Droid.Resource.Drawable.ic_expand_00000;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00001 = global::WpApp.Droid.Resource.Drawable.ic_expand_00001;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00002 = global::WpApp.Droid.Resource.Drawable.ic_expand_00002;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00003 = global::WpApp.Droid.Resource.Drawable.ic_expand_00003;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00004 = global::WpApp.Droid.Resource.Drawable.ic_expand_00004;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00005 = global::WpApp.Droid.Resource.Drawable.ic_expand_00005;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00006 = global::WpApp.Droid.Resource.Drawable.ic_expand_00006;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00007 = global::WpApp.Droid.Resource.Drawable.ic_expand_00007;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00008 = global::WpApp.Droid.Resource.Drawable.ic_expand_00008;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00009 = global::WpApp.Droid.Resource.Drawable.ic_expand_00009;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00010 = global::WpApp.Droid.Resource.Drawable.ic_expand_00010;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00011 = global::WpApp.Droid.Resource.Drawable.ic_expand_00011;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00012 = global::WpApp.Droid.Resource.Drawable.ic_expand_00012;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00013 = global::WpApp.Droid.Resource.Drawable.ic_expand_00013;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00014 = global::WpApp.Droid.Resource.Drawable.ic_expand_00014;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_expand_00015 = global::WpApp.Droid.Resource.Drawable.ic_expand_00015;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_pause = global::WpApp.Droid.Resource.Drawable.ic_media_pause;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_play = global::WpApp.Droid.Resource.Drawable.ic_media_play;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_route_disabled_mono_dark = global::WpApp.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_route_off_mono_dark = global::WpApp.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_route_on_0_mono_dark = global::WpApp.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_route_on_1_mono_dark = global::WpApp.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_route_on_2_mono_dark = global::WpApp.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_media_route_on_mono_dark = global::WpApp.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_pause_dark = global::WpApp.Droid.Resource.Drawable.ic_pause_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_pause_light = global::WpApp.Droid.Resource.Drawable.ic_pause_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_play_dark = global::WpApp.Droid.Resource.Drawable.ic_play_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_play_light = global::WpApp.Droid.Resource.Drawable.ic_play_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_speaker_dark = global::WpApp.Droid.Resource.Drawable.ic_speaker_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_speaker_group_dark = global::WpApp.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_speaker_group_light = global::WpApp.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_speaker_light = global::WpApp.Droid.Resource.Drawable.ic_speaker_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_tv_dark = global::WpApp.Droid.Resource.Drawable.ic_tv_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.ic_tv_light = global::WpApp.Droid.Resource.Drawable.ic_tv_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_dialog_material_background_dark = global::WpApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_dialog_material_background_light = global::WpApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_audiotrack_light = global::WpApp.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_cast_dark = global::WpApp.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_cast_light = global::WpApp.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_close_dark = global::WpApp.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_close_light = global::WpApp.Droid.Resource.Drawable.mr_ic_close_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::WpApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::WpApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_media_route_mono_dark = global::WpApp.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_media_route_mono_light = global::WpApp.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_pause_dark = global::WpApp.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_pause_light = global::WpApp.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_play_dark = global::WpApp.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.mr_ic_play_light = global::WpApp.Droid.Resource.Drawable.mr_ic_play_light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Drawable.notification_template_icon_bg = global::WpApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action0 = global::WpApp.Droid.Resource.Id.action0;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_bar = global::WpApp.Droid.Resource.Id.action_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_bar_activity_content = global::WpApp.Droid.Resource.Id.action_bar_activity_content;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_bar_container = global::WpApp.Droid.Resource.Id.action_bar_container;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_bar_root = global::WpApp.Droid.Resource.Id.action_bar_root;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_bar_spinner = global::WpApp.Droid.Resource.Id.action_bar_spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_bar_subtitle = global::WpApp.Droid.Resource.Id.action_bar_subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_bar_title = global::WpApp.Droid.Resource.Id.action_bar_title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_context_bar = global::WpApp.Droid.Resource.Id.action_context_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_divider = global::WpApp.Droid.Resource.Id.action_divider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_menu_divider = global::WpApp.Droid.Resource.Id.action_menu_divider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_menu_presenter = global::WpApp.Droid.Resource.Id.action_menu_presenter;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_mode_bar = global::WpApp.Droid.Resource.Id.action_mode_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_mode_bar_stub = global::WpApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.action_mode_close_button = global::WpApp.Droid.Resource.Id.action_mode_close_button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.activity_chooser_view_content = global::WpApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.alertTitle = global::WpApp.Droid.Resource.Id.alertTitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.always = global::WpApp.Droid.Resource.Id.always;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.beginning = global::WpApp.Droid.Resource.Id.beginning;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.bottom = global::WpApp.Droid.Resource.Id.bottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.buttonPanel = global::WpApp.Droid.Resource.Id.buttonPanel;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.cancel_action = global::WpApp.Droid.Resource.Id.cancel_action;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.center = global::WpApp.Droid.Resource.Id.center;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.center_horizontal = global::WpApp.Droid.Resource.Id.center_horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.center_vertical = global::WpApp.Droid.Resource.Id.center_vertical;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.checkbox = global::WpApp.Droid.Resource.Id.checkbox;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.chronometer = global::WpApp.Droid.Resource.Id.chronometer;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.clip_horizontal = global::WpApp.Droid.Resource.Id.clip_horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.clip_vertical = global::WpApp.Droid.Resource.Id.clip_vertical;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.collapseActionView = global::WpApp.Droid.Resource.Id.collapseActionView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.contentPanel = global::WpApp.Droid.Resource.Id.contentPanel;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.custom = global::WpApp.Droid.Resource.Id.custom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.customPanel = global::WpApp.Droid.Resource.Id.customPanel;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.decor_content_parent = global::WpApp.Droid.Resource.Id.decor_content_parent;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.default_activity_button = global::WpApp.Droid.Resource.Id.default_activity_button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.design_bottom_sheet = global::WpApp.Droid.Resource.Id.design_bottom_sheet;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.design_menu_item_action_area = global::WpApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.design_menu_item_action_area_stub = global::WpApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.design_menu_item_text = global::WpApp.Droid.Resource.Id.design_menu_item_text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.design_navigation_view = global::WpApp.Droid.Resource.Id.design_navigation_view;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.disableHome = global::WpApp.Droid.Resource.Id.disableHome;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.edit_query = global::WpApp.Droid.Resource.Id.edit_query;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.end = global::WpApp.Droid.Resource.Id.end;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.end_padder = global::WpApp.Droid.Resource.Id.end_padder;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.enterAlways = global::WpApp.Droid.Resource.Id.enterAlways;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.enterAlwaysCollapsed = global::WpApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.exitUntilCollapsed = global::WpApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.expand_activities_button = global::WpApp.Droid.Resource.Id.expand_activities_button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.expanded_menu = global::WpApp.Droid.Resource.Id.expanded_menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.fill = global::WpApp.Droid.Resource.Id.fill;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.fill_horizontal = global::WpApp.Droid.Resource.Id.fill_horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.fill_vertical = global::WpApp.Droid.Resource.Id.fill_vertical;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.@fixed = global::WpApp.Droid.Resource.Id.@fixed;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.home = global::WpApp.Droid.Resource.Id.home;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.homeAsUp = global::WpApp.Droid.Resource.Id.homeAsUp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.icon = global::WpApp.Droid.Resource.Id.icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.ifRoom = global::WpApp.Droid.Resource.Id.ifRoom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.image = global::WpApp.Droid.Resource.Id.image;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.info = global::WpApp.Droid.Resource.Id.info;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.item_touch_helper_previous_elevation = global::WpApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.left = global::WpApp.Droid.Resource.Id.left;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.line1 = global::WpApp.Droid.Resource.Id.line1;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.line3 = global::WpApp.Droid.Resource.Id.line3;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.listMode = global::WpApp.Droid.Resource.Id.listMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.list_item = global::WpApp.Droid.Resource.Id.list_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.media_actions = global::WpApp.Droid.Resource.Id.media_actions;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.middle = global::WpApp.Droid.Resource.Id.middle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mini = global::WpApp.Droid.Resource.Id.mini;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_art = global::WpApp.Droid.Resource.Id.mr_art;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_chooser_list = global::WpApp.Droid.Resource.Id.mr_chooser_list;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_chooser_route_desc = global::WpApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_chooser_route_icon = global::WpApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_chooser_route_name = global::WpApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_close = global::WpApp.Droid.Resource.Id.mr_close;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_control_divider = global::WpApp.Droid.Resource.Id.mr_control_divider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_control_play_pause = global::WpApp.Droid.Resource.Id.mr_control_play_pause;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_control_subtitle = global::WpApp.Droid.Resource.Id.mr_control_subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_control_title = global::WpApp.Droid.Resource.Id.mr_control_title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_control_title_container = global::WpApp.Droid.Resource.Id.mr_control_title_container;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_custom_control = global::WpApp.Droid.Resource.Id.mr_custom_control;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_default_control = global::WpApp.Droid.Resource.Id.mr_default_control;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_dialog_area = global::WpApp.Droid.Resource.Id.mr_dialog_area;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_expandable_area = global::WpApp.Droid.Resource.Id.mr_expandable_area;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_group_expand_collapse = global::WpApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_media_main_control = global::WpApp.Droid.Resource.Id.mr_media_main_control;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_name = global::WpApp.Droid.Resource.Id.mr_name;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_playback_control = global::WpApp.Droid.Resource.Id.mr_playback_control;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_title_bar = global::WpApp.Droid.Resource.Id.mr_title_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_volume_control = global::WpApp.Droid.Resource.Id.mr_volume_control;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_volume_group_list = global::WpApp.Droid.Resource.Id.mr_volume_group_list;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_volume_item_icon = global::WpApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.mr_volume_slider = global::WpApp.Droid.Resource.Id.mr_volume_slider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.multiply = global::WpApp.Droid.Resource.Id.multiply;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.navigation_header_container = global::WpApp.Droid.Resource.Id.navigation_header_container;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.never = global::WpApp.Droid.Resource.Id.never;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.none = global::WpApp.Droid.Resource.Id.none;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.normal = global::WpApp.Droid.Resource.Id.normal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.parallax = global::WpApp.Droid.Resource.Id.parallax;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.parentPanel = global::WpApp.Droid.Resource.Id.parentPanel;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.pin = global::WpApp.Droid.Resource.Id.pin;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.progress_circular = global::WpApp.Droid.Resource.Id.progress_circular;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.progress_horizontal = global::WpApp.Droid.Resource.Id.progress_horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.radio = global::WpApp.Droid.Resource.Id.radio;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.right = global::WpApp.Droid.Resource.Id.right;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.screen = global::WpApp.Droid.Resource.Id.screen;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.scroll = global::WpApp.Droid.Resource.Id.scroll;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.scrollIndicatorDown = global::WpApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.scrollIndicatorUp = global::WpApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.scrollView = global::WpApp.Droid.Resource.Id.scrollView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.scrollable = global::WpApp.Droid.Resource.Id.scrollable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_badge = global::WpApp.Droid.Resource.Id.search_badge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_bar = global::WpApp.Droid.Resource.Id.search_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_button = global::WpApp.Droid.Resource.Id.search_button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_close_btn = global::WpApp.Droid.Resource.Id.search_close_btn;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_edit_frame = global::WpApp.Droid.Resource.Id.search_edit_frame;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_go_btn = global::WpApp.Droid.Resource.Id.search_go_btn;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_mag_icon = global::WpApp.Droid.Resource.Id.search_mag_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_plate = global::WpApp.Droid.Resource.Id.search_plate;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_src_text = global::WpApp.Droid.Resource.Id.search_src_text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.search_voice_btn = global::WpApp.Droid.Resource.Id.search_voice_btn;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.select_dialog_listview = global::WpApp.Droid.Resource.Id.select_dialog_listview;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.shortcut = global::WpApp.Droid.Resource.Id.shortcut;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.showCustom = global::WpApp.Droid.Resource.Id.showCustom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.showHome = global::WpApp.Droid.Resource.Id.showHome;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.showTitle = global::WpApp.Droid.Resource.Id.showTitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.snackbar_action = global::WpApp.Droid.Resource.Id.snackbar_action;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.snackbar_text = global::WpApp.Droid.Resource.Id.snackbar_text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.snap = global::WpApp.Droid.Resource.Id.snap;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.spacer = global::WpApp.Droid.Resource.Id.spacer;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.split_action_bar = global::WpApp.Droid.Resource.Id.split_action_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.src_atop = global::WpApp.Droid.Resource.Id.src_atop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.src_in = global::WpApp.Droid.Resource.Id.src_in;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.src_over = global::WpApp.Droid.Resource.Id.src_over;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.start = global::WpApp.Droid.Resource.Id.start;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.status_bar_latest_event_content = global::WpApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.submit_area = global::WpApp.Droid.Resource.Id.submit_area;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.tabMode = global::WpApp.Droid.Resource.Id.tabMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.text = global::WpApp.Droid.Resource.Id.text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.text2 = global::WpApp.Droid.Resource.Id.text2;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.textSpacerNoButtons = global::WpApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.time = global::WpApp.Droid.Resource.Id.time;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.title = global::WpApp.Droid.Resource.Id.title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.title_template = global::WpApp.Droid.Resource.Id.title_template;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.top = global::WpApp.Droid.Resource.Id.top;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.topPanel = global::WpApp.Droid.Resource.Id.topPanel;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.touch_outside = global::WpApp.Droid.Resource.Id.touch_outside;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.up = global::WpApp.Droid.Resource.Id.up;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.useLogo = global::WpApp.Droid.Resource.Id.useLogo;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.view_offset_helper = global::WpApp.Droid.Resource.Id.view_offset_helper;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.volume_item_container = global::WpApp.Droid.Resource.Id.volume_item_container;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.withText = global::WpApp.Droid.Resource.Id.withText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Id.wrap_content = global::WpApp.Droid.Resource.Id.wrap_content;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.abc_config_activityDefaultDur = global::WpApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.abc_config_activityShortDur = global::WpApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.abc_max_action_buttons = global::WpApp.Droid.Resource.Integer.abc_max_action_buttons;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.bottom_sheet_slide_duration = global::WpApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.cancel_button_image_alpha = global::WpApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.design_snackbar_text_max_lines = global::WpApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::WpApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::WpApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::WpApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Integer.status_bar_notification_info_maxnum = global::WpApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Interpolator.mr_fast_out_slow_in = global::WpApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Interpolator.mr_linear_out_slow_in = global::WpApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_action_bar_title_item = global::WpApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_action_bar_up_container = global::WpApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::WpApp.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_action_menu_item_layout = global::WpApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_action_menu_layout = global::WpApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_action_mode_bar = global::WpApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_action_mode_close_item_material = global::WpApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_activity_chooser_view = global::WpApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::WpApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::WpApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_alert_dialog_material = global::WpApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_dialog_title_material = global::WpApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_expanded_menu_layout = global::WpApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_list_menu_item_checkbox = global::WpApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_list_menu_item_icon = global::WpApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_list_menu_item_layout = global::WpApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_list_menu_item_radio = global::WpApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_popup_menu_item_layout = global::WpApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_screen_content_include = global::WpApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_screen_simple = global::WpApp.Droid.Resource.Layout.abc_screen_simple;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::WpApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_screen_toolbar = global::WpApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::WpApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_search_view = global::WpApp.Droid.Resource.Layout.abc_search_view;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.abc_select_dialog_material = global::WpApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_bottom_sheet_dialog = global::WpApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_layout_snackbar = global::WpApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_layout_snackbar_include = global::WpApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_layout_tab_icon = global::WpApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_layout_tab_text = global::WpApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_menu_item_action_area = global::WpApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_navigation_item = global::WpApp.Droid.Resource.Layout.design_navigation_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_navigation_item_header = global::WpApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_navigation_item_separator = global::WpApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_navigation_item_subheader = global::WpApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_navigation_menu = global::WpApp.Droid.Resource.Layout.design_navigation_menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.design_navigation_menu_item = global::WpApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.mr_chooser_dialog = global::WpApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.mr_chooser_list_item = global::WpApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.mr_controller_material_dialog_b = global::WpApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.mr_controller_volume_item = global::WpApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.mr_playback_control = global::WpApp.Droid.Resource.Layout.mr_playback_control;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.mr_volume_control = global::WpApp.Droid.Resource.Layout.mr_volume_control;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_media_action = global::WpApp.Droid.Resource.Layout.notification_media_action;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_media_cancel_action = global::WpApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_template_big_media = global::WpApp.Droid.Resource.Layout.notification_template_big_media;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_template_big_media_narrow = global::WpApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_template_lines = global::WpApp.Droid.Resource.Layout.notification_template_lines;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_template_media = global::WpApp.Droid.Resource.Layout.notification_template_media;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_template_part_chronometer = global::WpApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.notification_template_part_time = global::WpApp.Droid.Resource.Layout.notification_template_part_time;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.select_dialog_item_material = global::WpApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.select_dialog_multichoice_material = global::WpApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.select_dialog_singlechoice_material = global::WpApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::WpApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.ApplicationName = global::WpApp.Droid.Resource.String.ApplicationName;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.Hello = global::WpApp.Droid.Resource.String.Hello;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_action_bar_home_description = global::WpApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_action_bar_home_description_format = global::WpApp.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::WpApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_action_bar_up_description = global::WpApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_action_menu_overflow_description = global::WpApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_action_mode_done = global::WpApp.Droid.Resource.String.abc_action_mode_done;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_activity_chooser_view_see_all = global::WpApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_activitychooserview_choose_application = global::WpApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_capital_off = global::WpApp.Droid.Resource.String.abc_capital_off;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_capital_on = global::WpApp.Droid.Resource.String.abc_capital_on;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_search_hint = global::WpApp.Droid.Resource.String.abc_search_hint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_searchview_description_clear = global::WpApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_searchview_description_query = global::WpApp.Droid.Resource.String.abc_searchview_description_query;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_searchview_description_search = global::WpApp.Droid.Resource.String.abc_searchview_description_search;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_searchview_description_submit = global::WpApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_searchview_description_voice = global::WpApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_shareactionprovider_share_with = global::WpApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_shareactionprovider_share_with_application = global::WpApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.abc_toolbar_collapse_description = global::WpApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.appbar_scrolling_view_behavior = global::WpApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.bottom_sheet_behavior = global::WpApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.character_counter_pattern = global::WpApp.Droid.Resource.String.character_counter_pattern;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_button_content_description = global::WpApp.Droid.Resource.String.mr_button_content_description;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_chooser_searching = global::WpApp.Droid.Resource.String.mr_chooser_searching;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_chooser_title = global::WpApp.Droid.Resource.String.mr_chooser_title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_casting_screen = global::WpApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_close_description = global::WpApp.Droid.Resource.String.mr_controller_close_description;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_collapse_group = global::WpApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_disconnect = global::WpApp.Droid.Resource.String.mr_controller_disconnect;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_expand_group = global::WpApp.Droid.Resource.String.mr_controller_expand_group;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_no_info_available = global::WpApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_no_media_selected = global::WpApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_pause = global::WpApp.Droid.Resource.String.mr_controller_pause;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_play = global::WpApp.Droid.Resource.String.mr_controller_play;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_controller_stop = global::WpApp.Droid.Resource.String.mr_controller_stop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_system_route_name = global::WpApp.Droid.Resource.String.mr_system_route_name;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.mr_user_route_category_name = global::WpApp.Droid.Resource.String.mr_user_route_category_name;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.String.status_bar_notification_info_overflow = global::WpApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.AlertDialog_AppCompat = global::WpApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.AlertDialog_AppCompat_Light = global::WpApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Animation_AppCompat_Dialog = global::WpApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::WpApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::WpApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_AlertDialog_AppCompat = global::WpApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::WpApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::WpApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::WpApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_CardView = global::WpApp.Droid.Resource.Style.Base_CardView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::WpApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::WpApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WpApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WpApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WpApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::WpApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Light = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::WpApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::WpApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::WpApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::WpApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::WpApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::WpApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::WpApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::WpApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::WpApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::WpApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V21_Theme_AppCompat = global::WpApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::WpApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::WpApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::WpApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V22_Theme_AppCompat = global::WpApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::WpApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V23_Theme_AppCompat = global::WpApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::WpApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V7_Theme_AppCompat = global::WpApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::WpApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::WpApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::WpApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::WpApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::WpApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Button = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::WpApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Base_Widget_Design_TabLayout = global::WpApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.CardView = global::WpApp.Droid.Resource.Style.CardView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.CardView_Dark = global::WpApp.Droid.Resource.Style.CardView_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.CardView_Light = global::WpApp.Droid.Resource.Style.CardView_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_AppCompat = global::WpApp.Droid.Resource.Style.Platform_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_AppCompat_Light = global::WpApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::WpApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::WpApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::WpApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_V11_AppCompat = global::WpApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_V11_AppCompat_Light = global::WpApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_V14_AppCompat = global::WpApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_V14_AppCompat_Light = global::WpApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::WpApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::WpApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::WpApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::WpApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::WpApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Button = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Large = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Small = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Title = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WpApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::WpApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Design_Counter = global::WpApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::WpApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Design_Error = global::WpApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Design_Hint = global::WpApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::WpApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Design_Tab = global::WpApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::WpApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::WpApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::WpApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::WpApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::WpApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WpApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WpApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::WpApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat = global::WpApp.Droid.Resource.Style.Theme_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::WpApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DayNight = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Dialog = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::WpApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Light = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::WpApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::WpApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_Design = global::WpApp.Droid.Resource.Style.Theme_Design;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::WpApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_Design_Light = global::WpApp.Droid.Resource.Style.Theme_Design_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::WpApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::WpApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_Design_NoActionBar = global::WpApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_MediaRouter = global::WpApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_MediaRouter_Light = global::WpApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::WpApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::WpApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.ThemeOverlay_AppCompat = global::WpApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::WpApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::WpApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::WpApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::WpApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionButton = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActionMode = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Button = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Button_Small = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::WpApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::WpApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::WpApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::WpApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::WpApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_EditText = global::WpApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ImageButton = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ListView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::WpApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::WpApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::WpApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::WpApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_RatingBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::WpApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::WpApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_SearchView = global::WpApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_SeekBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Spinner = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::WpApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Toolbar = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::WpApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_AppBarLayout = global::WpApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::WpApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::WpApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::WpApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_FloatingActionButton = global::WpApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_NavigationView = global::WpApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::WpApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_Snackbar = global::WpApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_TabLayout = global::WpApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_Design_TextInputLayout = global::WpApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ChooserText = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::WpApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar = global::WpApp.Droid.Resource.Styleable.ActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_background = global::WpApp.Droid.Resource.Styleable.ActionBar_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_backgroundSplit = global::WpApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_backgroundStacked = global::WpApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::WpApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::WpApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_contentInsetRight = global::WpApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_contentInsetStart = global::WpApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::WpApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_displayOptions = global::WpApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_divider = global::WpApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_elevation = global::WpApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_height = global::WpApp.Droid.Resource.Styleable.ActionBar_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::WpApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::WpApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_homeLayout = global::WpApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_icon = global::WpApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::WpApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_itemPadding = global::WpApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_logo = global::WpApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_navigationMode = global::WpApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_popupTheme = global::WpApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_progressBarPadding = global::WpApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_progressBarStyle = global::WpApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_subtitle = global::WpApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::WpApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_title = global::WpApp.Droid.Resource.Styleable.ActionBar_title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBar_titleTextStyle = global::WpApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBarLayout = global::WpApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::WpApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMenuItemView = global::WpApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::WpApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMenuView = global::WpApp.Droid.Resource.Styleable.ActionMenuView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMode = global::WpApp.Droid.Resource.Styleable.ActionMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMode_background = global::WpApp.Droid.Resource.Styleable.ActionMode_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMode_backgroundSplit = global::WpApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMode_closeItemLayout = global::WpApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMode_height = global::WpApp.Droid.Resource.Styleable.ActionMode_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::WpApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActionMode_titleTextStyle = global::WpApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActivityChooserView = global::WpApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::WpApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::WpApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AlertDialog = global::WpApp.Droid.Resource.Styleable.AlertDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AlertDialog_android_layout = global::WpApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::WpApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AlertDialog_listItemLayout = global::WpApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AlertDialog_listLayout = global::WpApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::WpApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::WpApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppBarLayout = global::WpApp.Droid.Resource.Styleable.AppBarLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppBarLayout_android_background = global::WpApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppBarLayout_elevation = global::WpApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppBarLayout_expanded = global::WpApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppBarLayout_LayoutParams = global::WpApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::WpApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::WpApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatImageView = global::WpApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatImageView_android_src = global::WpApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::WpApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTextView = global::WpApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::WpApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::WpApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme = global::WpApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::WpApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.BottomSheetBehavior_Params = global::WpApp.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::WpApp.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::WpApp.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ButtonBarLayout = global::WpApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::WpApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView = global::WpApp.Droid.Resource.Styleable.CardView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_android_minHeight = global::WpApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_android_minWidth = global::WpApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_cardBackgroundColor = global::WpApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_cardCornerRadius = global::WpApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_cardElevation = global::WpApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_cardMaxElevation = global::WpApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::WpApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::WpApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_contentPadding = global::WpApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_contentPaddingBottom = global::WpApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_contentPaddingLeft = global::WpApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_contentPaddingRight = global::WpApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CardView_contentPaddingTop = global::WpApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::WpApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::WpApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::WpApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::WpApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CompoundButton = global::WpApp.Droid.Resource.Styleable.CompoundButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CompoundButton_android_button = global::WpApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CompoundButton_buttonTint = global::WpApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::WpApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_keylines = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_LayoutParams = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::WpApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DesignTheme = global::WpApp.Droid.Resource.Styleable.DesignTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::WpApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::WpApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DesignTheme_textColorError = global::WpApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_color = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::WpApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton = global::WpApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_elevation = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_fabSize = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::WpApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ForegroundLinearLayout = global::WpApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::WpApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::WpApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::WpApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_divider = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::WpApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ListPopupWindow = global::WpApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::WpApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::WpApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MediaRouteButton = global::WpApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::WpApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::WpApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::WpApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuGroup = global::WpApp.Droid.Resource.Styleable.MenuGroup;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::WpApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuGroup_android_enabled = global::WpApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuGroup_android_id = global::WpApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::WpApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::WpApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuGroup_android_visible = global::WpApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem = global::WpApp.Droid.Resource.Styleable.MenuItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_actionLayout = global::WpApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_actionProviderClass = global::WpApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_actionViewClass = global::WpApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::WpApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_checkable = global::WpApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_checked = global::WpApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_enabled = global::WpApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_icon = global::WpApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_id = global::WpApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_menuCategory = global::WpApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::WpApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_onClick = global::WpApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::WpApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_title = global::WpApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::WpApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_android_visible = global::WpApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuItem_showAsAction = global::WpApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView = global::WpApp.Droid.Resource.Styleable.MenuView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_android_headerBackground = global::WpApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::WpApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_android_itemBackground = global::WpApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::WpApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::WpApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_android_verticalDivider = global::WpApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::WpApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::WpApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView = global::WpApp.Droid.Resource.Styleable.NavigationView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_android_background = global::WpApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::WpApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_android_maxWidth = global::WpApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_elevation = global::WpApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_headerLayout = global::WpApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_itemBackground = global::WpApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_itemIconTint = global::WpApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::WpApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_itemTextColor = global::WpApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.NavigationView_menu = global::WpApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.PopupWindow = global::WpApp.Droid.Resource.Styleable.PopupWindow;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::WpApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::WpApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.PopupWindowBackgroundState = global::WpApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::WpApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.RecyclerView = global::WpApp.Droid.Resource.Styleable.RecyclerView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.RecyclerView_android_orientation = global::WpApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.RecyclerView_layoutManager = global::WpApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.RecyclerView_reverseLayout = global::WpApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.RecyclerView_spanCount = global::WpApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::WpApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::WpApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::WpApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ScrollingViewBehavior_Params = global::WpApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::WpApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView = global::WpApp.Droid.Resource.Styleable.SearchView;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_android_focusable = global::WpApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_android_imeOptions = global::WpApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_android_inputType = global::WpApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_android_maxWidth = global::WpApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_closeIcon = global::WpApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_commitIcon = global::WpApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_defaultQueryHint = global::WpApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_goIcon = global::WpApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::WpApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_layout = global::WpApp.Droid.Resource.Styleable.SearchView_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_queryBackground = global::WpApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_queryHint = global::WpApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_searchHintIcon = global::WpApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_searchIcon = global::WpApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_submitBackground = global::WpApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::WpApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SearchView_voiceIcon = global::WpApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SnackbarLayout = global::WpApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::WpApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SnackbarLayout_elevation = global::WpApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::WpApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Spinner = global::WpApp.Droid.Resource.Styleable.Spinner;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::WpApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Spinner_android_entries = global::WpApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Spinner_android_popupBackground = global::WpApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Spinner_android_prompt = global::WpApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Spinner_popupTheme = global::WpApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat = global::WpApp.Droid.Resource.Styleable.SwitchCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_android_textOff = global::WpApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_android_textOn = global::WpApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_android_thumb = global::WpApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_showText = global::WpApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_splitTrack = global::WpApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::WpApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_switchPadding = global::WpApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::WpApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::WpApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.SwitchCompat_track = global::WpApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabItem = global::WpApp.Droid.Resource.Styleable.TabItem;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabItem_android_icon = global::WpApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabItem_android_layout = global::WpApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabItem_android_text = global::WpApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout = global::WpApp.Droid.Resource.Styleable.TabLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabBackground = global::WpApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabContentStart = global::WpApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabGravity = global::WpApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::WpApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::WpApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::WpApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabMinWidth = global::WpApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabMode = global::WpApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabPadding = global::WpApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::WpApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::WpApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::WpApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::WpApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::WpApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::WpApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TabLayout_tabTextColor = global::WpApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance = global::WpApp.Droid.Resource.Styleable.TextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_textColor = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_textSize = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_textStyle = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_android_typeface = global::WpApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextAppearance_textAllCaps = global::WpApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout = global::WpApp.Droid.Resource.Styleable.TextInputLayout;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_android_hint = global::WpApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::WpApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::WpApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::WpApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::WpApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::WpApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::WpApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::WpApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::WpApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::WpApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::WpApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar = global::WpApp.Droid.Resource.Styleable.Toolbar;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_android_gravity = global::WpApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_android_minHeight = global::WpApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::WpApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_collapseIcon = global::WpApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::WpApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::WpApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_contentInsetRight = global::WpApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_contentInsetStart = global::WpApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_logo = global::WpApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_logoDescription = global::WpApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::WpApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::WpApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_navigationIcon = global::WpApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_popupTheme = global::WpApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_subtitle = global::WpApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::WpApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::WpApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_title = global::WpApp.Droid.Resource.Styleable.Toolbar_title;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::WpApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::WpApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_titleMarginStart = global::WpApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_titleMarginTop = global::WpApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_titleMargins = global::WpApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::WpApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.Toolbar_titleTextColor = global::WpApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.View = global::WpApp.Droid.Resource.Styleable.View;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.View_android_focusable = global::WpApp.Droid.Resource.Styleable.View_android_focusable;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.View_android_theme = global::WpApp.Droid.Resource.Styleable.View_android_theme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.View_paddingEnd = global::WpApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.View_paddingStart = global::WpApp.Droid.Resource.Styleable.View_paddingStart;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.View_theme = global::WpApp.Droid.Resource.Styleable.View_theme;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewBackgroundHelper = global::WpApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::WpApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::WpApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::WpApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewStubCompat = global::WpApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewStubCompat_android_id = global::WpApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::WpApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::PCLAppConfig.FileSystemStream.Android.Resource.Styleable.ViewStubCompat_android_layout = global::WpApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::BottomNavigationBar.Resource.Animation.abc_fade_in = global::WpApp.Droid.Resource.Animation.abc_fade_in;
 			global::BottomNavigationBar.Resource.Animation.abc_fade_out = global::WpApp.Droid.Resource.Animation.abc_fade_out;
 			global::BottomNavigationBar.Resource.Animation.abc_grow_fade_in_from_bottom = global::WpApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -5527,6 +7352,42 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f01009a
 			public const int activityChooserViewStyle = 2130772122;
 			
+			// aapt resource value: 0x7f010156
+			public const int ahBarColor = 2130772310;
+			
+			// aapt resource value: 0x7f01015e
+			public const int ahBarLength = 2130772318;
+			
+			// aapt resource value: 0x7f01015d
+			public const int ahBarWidth = 2130772317;
+			
+			// aapt resource value: 0x7f01015b
+			public const int ahCircleColor = 2130772315;
+			
+			// aapt resource value: 0x7f01015a
+			public const int ahDelayMillis = 2130772314;
+			
+			// aapt resource value: 0x7f01015c
+			public const int ahRadius = 2130772316;
+			
+			// aapt resource value: 0x7f010157
+			public const int ahRimColor = 2130772311;
+			
+			// aapt resource value: 0x7f010158
+			public const int ahRimWidth = 2130772312;
+			
+			// aapt resource value: 0x7f010159
+			public const int ahSpinSpeed = 2130772313;
+			
+			// aapt resource value: 0x7f010153
+			public const int ahText = 2130772307;
+			
+			// aapt resource value: 0x7f010154
+			public const int ahTextColor = 2130772308;
+			
+			// aapt resource value: 0x7f010155
+			public const int ahTextSize = 2130772309;
+			
 			// aapt resource value: 0x7f0100bd
 			public const int alertDialogButtonGroupStyle = 2130772157;
 			
@@ -7728,220 +9589,232 @@ namespace WpApp.Droid
 			public const int ic_collapse_00015 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_expand = 2130837664;
+			public const int ic_errorstatus = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_expand_00000 = 2130837665;
+			public const int ic_expand = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_expand_00001 = 2130837666;
+			public const int ic_expand_00000 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_expand_00002 = 2130837667;
+			public const int ic_expand_00001 = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_expand_00003 = 2130837668;
+			public const int ic_expand_00002 = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_expand_00004 = 2130837669;
+			public const int ic_expand_00003 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_expand_00005 = 2130837670;
+			public const int ic_expand_00004 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_expand_00006 = 2130837671;
+			public const int ic_expand_00005 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_expand_00007 = 2130837672;
+			public const int ic_expand_00006 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_expand_00008 = 2130837673;
+			public const int ic_expand_00007 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_expand_00009 = 2130837674;
+			public const int ic_expand_00008 = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_expand_00010 = 2130837675;
+			public const int ic_expand_00009 = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_expand_00011 = 2130837676;
+			public const int ic_expand_00010 = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_expand_00012 = 2130837677;
+			public const int ic_expand_00011 = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_expand_00013 = 2130837678;
+			public const int ic_expand_00012 = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_expand_00014 = 2130837679;
+			public const int ic_expand_00013 = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_expand_00015 = 2130837680;
+			public const int ic_expand_00014 = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_home = 2130837681;
+			public const int ic_expand_00015 = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_launcher = 2130837682;
+			public const int ic_home = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_media_pause = 2130837683;
+			public const int ic_launcher = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_media_play = 2130837684;
+			public const int ic_media_pause = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_media_route_disabled_mono_dark = 2130837685;
+			public const int ic_media_play = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_media_route_off_mono_dark = 2130837686;
+			public const int ic_media_route_disabled_mono_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_media_route_on_0_mono_dark = 2130837687;
+			public const int ic_media_route_off_mono_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_media_route_on_1_mono_dark = 2130837688;
+			public const int ic_media_route_on_0_mono_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_media_route_on_2_mono_dark = 2130837689;
+			public const int ic_media_route_on_1_mono_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_media_route_on_mono_dark = 2130837690;
+			public const int ic_media_route_on_2_mono_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_pause = 2130837691;
+			public const int ic_media_route_on_mono_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_pause_dark = 2130837692;
+			public const int ic_pause = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_pause_light = 2130837693;
+			public const int ic_pause_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_people = 2130837694;
+			public const int ic_pause_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_play = 2130837695;
+			public const int ic_people = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_play_dark = 2130837696;
+			public const int ic_play = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_play_light = 2130837697;
+			public const int ic_play_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_queue_music = 2130837698;
+			public const int ic_play_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_settings = 2130837699;
+			public const int ic_queue_music = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_share = 2130837700;
+			public const int ic_settings = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_speaker_dark = 2130837701;
+			public const int ic_share = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_speaker_group_dark = 2130837702;
+			public const int ic_speaker_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_speaker_group_light = 2130837703;
+			public const int ic_speaker_group_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_speaker_light = 2130837704;
+			public const int ic_speaker_group_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_stop = 2130837705;
+			public const int ic_speaker_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_tv_dark = 2130837706;
+			public const int ic_stop = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_tv_light = 2130837707;
+			public const int ic_successstatus = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_view_list = 2130837708;
+			public const int ic_tv_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int instagram = 2130837709;
+			public const int ic_tv_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int logo = 2130837710;
+			public const int ic_view_list = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int mr_dialog_material_background_dark = 2130837711;
+			public const int instagram = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int mr_dialog_material_background_light = 2130837712;
+			public const int logo = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int mr_ic_audiotrack_light = 2130837713;
+			public const int mr_dialog_material_background_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int mr_ic_cast_dark = 2130837714;
+			public const int mr_dialog_material_background_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int mr_ic_cast_light = 2130837715;
+			public const int mr_ic_audiotrack_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int mr_ic_close_dark = 2130837716;
+			public const int mr_ic_cast_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int mr_ic_close_light = 2130837717;
+			public const int mr_ic_cast_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837718;
+			public const int mr_ic_close_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int mr_ic_media_route_connecting_mono_light = 2130837719;
+			public const int mr_ic_close_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int mr_ic_media_route_mono_dark = 2130837720;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int mr_ic_media_route_mono_light = 2130837721;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int mr_ic_pause_dark = 2130837722;
+			public const int mr_ic_media_route_mono_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int mr_ic_pause_light = 2130837723;
+			public const int mr_ic_media_route_mono_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int mr_ic_play_dark = 2130837724;
+			public const int mr_ic_pause_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int mr_ic_play_light = 2130837725;
-			
-			// aapt resource value: 0x7f0200e7
-			public const int notification_template_icon_bg = 2130837735;
+			public const int mr_ic_pause_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ratchet = 2130837726;
+			public const int mr_ic_play_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ratchet_full = 2130837727;
+			public const int mr_ic_play_light = 2130837727;
+			
+			// aapt resource value: 0x7f0200eb
+			public const int notification_template_icon_bg = 2130837739;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int refresh = 2130837728;
+			public const int ratchet = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int slideout = 2130837729;
+			public const int ratchet_full = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int splashbackground = 2130837730;
+			public const int refresh = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int tdl = 2130837731;
+			public const int roundedbg = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int tdl_full = 2130837732;
+			public const int roundedbgdark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int twitter = 2130837733;
+			public const int slideout = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int twitternav = 2130837734;
+			public const int splashbackground = 2130837734;
+			
+			// aapt resource value: 0x7f0200e7
+			public const int tdl = 2130837735;
+			
+			// aapt resource value: 0x7f0200e8
+			public const int tdl_full = 2130837736;
+			
+			// aapt resource value: 0x7f0200e9
+			public const int twitter = 2130837737;
+			
+			// aapt resource value: 0x7f0200ea
+			public const int twitternav = 2130837738;
 			
 			static Drawable()
 			{
@@ -7956,8 +9829,8 @@ namespace WpApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c00bb
-			public const int action0 = 2131493051;
+			// aapt resource value: 0x7f0c00bf
+			public const int action0 = 2131493055;
 			
 			// aapt resource value: 0x7f0c0065
 			public const int action_bar = 2131492965;
@@ -7983,8 +9856,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c0066
 			public const int action_context_bar = 2131492966;
 			
-			// aapt resource value: 0x7f0c00bf
-			public const int action_divider = 2131493055;
+			// aapt resource value: 0x7f0c00c3
+			public const int action_divider = 2131493059;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int action_menu_divider = 2131492867;
@@ -8073,8 +9946,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c009c
 			public const int button_update = 2131493020;
 			
-			// aapt resource value: 0x7f0c00bc
-			public const int cancel_action = 2131493052;
+			// aapt resource value: 0x7f0c00c0
+			public const int cancel_action = 2131493056;
 			
 			// aapt resource value: 0x7f0c0036
 			public const int center = 2131492918;
@@ -8088,8 +9961,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c005d
 			public const int checkbox = 2131492957;
 			
-			// aapt resource value: 0x7f0c00c2
-			public const int chronometer = 2131493058;
+			// aapt resource value: 0x7f0c00c6
+			public const int chronometer = 2131493062;
 			
 			// aapt resource value: 0x7f0c003e
 			public const int clip_horizontal = 2131492926;
@@ -8142,8 +10015,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c0027
 			public const int end = 2131492903;
 			
-			// aapt resource value: 0x7f0c00c7
-			public const int end_padder = 2131493063;
+			// aapt resource value: 0x7f0c00cb
+			public const int end_padder = 2131493067;
 			
 			// aapt resource value: 0x7f0c002e
 			public const int enterAlways = 2131492910;
@@ -8193,8 +10066,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c004a
 			public const int image = 2131492938;
 			
-			// aapt resource value: 0x7f0c00c6
-			public const int info = 2131493062;
+			// aapt resource value: 0x7f0c00ca
+			public const int info = 2131493066;
 			
 			// aapt resource value: 0x7f0c008a
 			public const int input_email = 2131493002;
@@ -8241,11 +10114,11 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c0017
 			public const int light = 2131492887;
 			
-			// aapt resource value: 0x7f0c00c0
-			public const int line1 = 2131493056;
-			
 			// aapt resource value: 0x7f0c00c4
-			public const int line3 = 2131493060;
+			public const int line1 = 2131493060;
+			
+			// aapt resource value: 0x7f0c00c8
+			public const int line3 = 2131493064;
 			
 			// aapt resource value: 0x7f0c0018
 			public const int listMode = 2131492888;
@@ -8259,8 +10132,17 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c004c
 			public const int list_item = 2131492940;
 			
-			// aapt resource value: 0x7f0c00be
-			public const int media_actions = 2131493054;
+			// aapt resource value: 0x7f0c00a4
+			public const int loadingImage = 2131493028;
+			
+			// aapt resource value: 0x7f0c00a2
+			public const int loadingProgressBar = 2131493026;
+			
+			// aapt resource value: 0x7f0c00a5
+			public const int loadingProgressWheel = 2131493029;
+			
+			// aapt resource value: 0x7f0c00c2
+			public const int media_actions = 2131493058;
 			
 			// aapt resource value: 0x7f0c0028
 			public const int middle = 2131492904;
@@ -8268,77 +10150,77 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c0042
 			public const int mini = 2131492930;
 			
-			// aapt resource value: 0x7f0c00ad
-			public const int mr_art = 2131493037;
-			
-			// aapt resource value: 0x7f0c00a2
-			public const int mr_chooser_list = 2131493026;
-			
-			// aapt resource value: 0x7f0c00a5
-			public const int mr_chooser_route_desc = 2131493029;
-			
-			// aapt resource value: 0x7f0c00a3
-			public const int mr_chooser_route_icon = 2131493027;
-			
-			// aapt resource value: 0x7f0c00a4
-			public const int mr_chooser_route_name = 2131493028;
-			
-			// aapt resource value: 0x7f0c00aa
-			public const int mr_close = 2131493034;
-			
-			// aapt resource value: 0x7f0c00b0
-			public const int mr_control_divider = 2131493040;
-			
-			// aapt resource value: 0x7f0c00b6
-			public const int mr_control_play_pause = 2131493046;
-			
-			// aapt resource value: 0x7f0c00b9
-			public const int mr_control_subtitle = 2131493049;
-			
-			// aapt resource value: 0x7f0c00b8
-			public const int mr_control_title = 2131493048;
-			
-			// aapt resource value: 0x7f0c00b7
-			public const int mr_control_title_container = 2131493047;
-			
-			// aapt resource value: 0x7f0c00ab
-			public const int mr_custom_control = 2131493035;
-			
-			// aapt resource value: 0x7f0c00ac
-			public const int mr_default_control = 2131493036;
-			
-			// aapt resource value: 0x7f0c00a7
-			public const int mr_dialog_area = 2131493031;
+			// aapt resource value: 0x7f0c00b1
+			public const int mr_art = 2131493041;
 			
 			// aapt resource value: 0x7f0c00a6
-			public const int mr_expandable_area = 2131493030;
-			
-			// aapt resource value: 0x7f0c00ba
-			public const int mr_group_expand_collapse = 2131493050;
-			
-			// aapt resource value: 0x7f0c00ae
-			public const int mr_media_main_control = 2131493038;
+			public const int mr_chooser_list = 2131493030;
 			
 			// aapt resource value: 0x7f0c00a9
-			public const int mr_name = 2131493033;
+			public const int mr_chooser_route_desc = 2131493033;
 			
-			// aapt resource value: 0x7f0c00af
-			public const int mr_playback_control = 2131493039;
+			// aapt resource value: 0x7f0c00a7
+			public const int mr_chooser_route_icon = 2131493031;
 			
 			// aapt resource value: 0x7f0c00a8
-			public const int mr_title_bar = 2131493032;
+			public const int mr_chooser_route_name = 2131493032;
 			
-			// aapt resource value: 0x7f0c00b1
-			public const int mr_volume_control = 2131493041;
-			
-			// aapt resource value: 0x7f0c00b2
-			public const int mr_volume_group_list = 2131493042;
+			// aapt resource value: 0x7f0c00ae
+			public const int mr_close = 2131493038;
 			
 			// aapt resource value: 0x7f0c00b4
-			public const int mr_volume_item_icon = 2131493044;
+			public const int mr_control_divider = 2131493044;
+			
+			// aapt resource value: 0x7f0c00ba
+			public const int mr_control_play_pause = 2131493050;
+			
+			// aapt resource value: 0x7f0c00bd
+			public const int mr_control_subtitle = 2131493053;
+			
+			// aapt resource value: 0x7f0c00bc
+			public const int mr_control_title = 2131493052;
+			
+			// aapt resource value: 0x7f0c00bb
+			public const int mr_control_title_container = 2131493051;
+			
+			// aapt resource value: 0x7f0c00af
+			public const int mr_custom_control = 2131493039;
+			
+			// aapt resource value: 0x7f0c00b0
+			public const int mr_default_control = 2131493040;
+			
+			// aapt resource value: 0x7f0c00ab
+			public const int mr_dialog_area = 2131493035;
+			
+			// aapt resource value: 0x7f0c00aa
+			public const int mr_expandable_area = 2131493034;
+			
+			// aapt resource value: 0x7f0c00be
+			public const int mr_group_expand_collapse = 2131493054;
+			
+			// aapt resource value: 0x7f0c00b2
+			public const int mr_media_main_control = 2131493042;
+			
+			// aapt resource value: 0x7f0c00ad
+			public const int mr_name = 2131493037;
+			
+			// aapt resource value: 0x7f0c00b3
+			public const int mr_playback_control = 2131493043;
+			
+			// aapt resource value: 0x7f0c00ac
+			public const int mr_title_bar = 2131493036;
 			
 			// aapt resource value: 0x7f0c00b5
-			public const int mr_volume_slider = 2131493045;
+			public const int mr_volume_control = 2131493045;
+			
+			// aapt resource value: 0x7f0c00b6
+			public const int mr_volume_group_list = 2131493046;
+			
+			// aapt resource value: 0x7f0c00b8
+			public const int mr_volume_item_icon = 2131493048;
+			
+			// aapt resource value: 0x7f0c00b9
+			public const int mr_volume_slider = 2131493049;
 			
 			// aapt resource value: 0x7f0c0021
 			public const int multiply = 2131492897;
@@ -8442,8 +10324,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c001e
 			public const int showTitle = 2131492894;
 			
-			// aapt resource value: 0x7f0c00c8
-			public const int sliding_tabs = 2131493064;
+			// aapt resource value: 0x7f0c00cc
+			public const int sliding_tabs = 2131493068;
 			
 			// aapt resource value: 0x7f0c0080
 			public const int snackbar_action = 2131492992;
@@ -8475,8 +10357,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c003c
 			public const int start = 2131492924;
 			
-			// aapt resource value: 0x7f0c00bd
-			public const int status_bar_latest_event_content = 2131493053;
+			// aapt resource value: 0x7f0c00c1
+			public const int status_bar_latest_event_content = 2131493057;
 			
 			// aapt resource value: 0x7f0c0070
 			public const int submit_area = 2131492976;
@@ -8487,20 +10369,23 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c000f
 			public const int terrain = 2131492879;
 			
-			// aapt resource value: 0x7f0c00c5
-			public const int text = 2131493061;
+			// aapt resource value: 0x7f0c00c9
+			public const int text = 2131493065;
 			
-			// aapt resource value: 0x7f0c00c3
-			public const int text2 = 2131493059;
+			// aapt resource value: 0x7f0c00c7
+			public const int text2 = 2131493063;
 			
 			// aapt resource value: 0x7f0c0058
 			public const int textSpacerNoButtons = 2131492952;
 			
+			// aapt resource value: 0x7f0c00a3
+			public const int textViewStatus = 2131493027;
+			
 			// aapt resource value: 0x7f0c0096
 			public const int text_headline = 2131493014;
 			
-			// aapt resource value: 0x7f0c00c1
-			public const int time = 2131493057;
+			// aapt resource value: 0x7f0c00c5
+			public const int time = 2131493061;
 			
 			// aapt resource value: 0x7f0c004e
 			public const int title = 2131492942;
@@ -8508,8 +10393,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c0053
 			public const int title_template = 2131492947;
 			
-			// aapt resource value: 0x7f0c00c9
-			public const int toolbar = 2131493065;
+			// aapt resource value: 0x7f0c00cd
+			public const int toolbar = 2131493069;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int top = 2131492925;
@@ -8532,8 +10417,8 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f0c000a
 			public const int view_offset_helper = 2131492874;
 			
-			// aapt resource value: 0x7f0c00b3
-			public const int volume_item_container = 2131493043;
+			// aapt resource value: 0x7f0c00b7
+			public const int volume_item_container = 2131493047;
 			
 			// aapt resource value: 0x7f0c009d
 			public const int web_update_details = 2131493021;
@@ -8785,64 +10670,73 @@ namespace WpApp.Droid
 			public const int hockeyapp_view_feedback_message = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int mr_chooser_dialog = 2130903088;
+			public const int loading = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int mr_chooser_list_item = 2130903089;
+			public const int loadingimage = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int mr_controller_material_dialog_b = 2130903090;
+			public const int loadingprogress = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int mr_controller_volume_item = 2130903091;
+			public const int mr_chooser_dialog = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int mr_playback_control = 2130903092;
+			public const int mr_chooser_list_item = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int mr_volume_control = 2130903093;
+			public const int mr_controller_material_dialog_b = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_media_action = 2130903094;
+			public const int mr_controller_volume_item = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_media_cancel_action = 2130903095;
+			public const int mr_playback_control = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_big_media = 2130903096;
+			public const int mr_volume_control = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_big_media_narrow = 2130903097;
+			public const int notification_media_action = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_lines = 2130903098;
+			public const int notification_media_cancel_action = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_media = 2130903099;
+			public const int notification_template_big_media = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_part_chronometer = 2130903100;
+			public const int notification_template_big_media_narrow = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_part_time = 2130903101;
+			public const int notification_template_lines = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_item_material = 2130903102;
+			public const int notification_template_media = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_multichoice_material = 2130903103;
+			public const int notification_template_part_chronometer = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_singlechoice_material = 2130903104;
+			public const int notification_template_part_time = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int support_simple_spinner_dropdown_item = 2130903105;
+			public const int select_dialog_item_material = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int tabs = 2130903106;
+			public const int select_dialog_multichoice_material = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int toolbar = 2130903107;
+			public const int select_dialog_singlechoice_material = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int support_simple_spinner_dropdown_item = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int tabs = 2130903109;
+			
+			// aapt resource value: 0x7f030046
+			public const int toolbar = 2130903110;
 			
 			static Layout()
 			{
@@ -8872,6 +10766,12 @@ namespace WpApp.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f080048
+			public const int ApplicationName = 2131230792;
+			
+			// aapt resource value: 0x7f080047
+			public const int Hello = 2131230791;
 			
 			// aapt resource value: 0x7f08002e
 			public const int abc_action_bar_home_description = 2131230766;
@@ -9035,218 +10935,218 @@ namespace WpApp.Droid
 			// aapt resource value: 0x7f08001e
 			public const int common_signin_button_text_long = 2131230750;
 			
-			// aapt resource value: 0x7f080047
-			public const int hockeyapp_crash_dialog_app_name_fallback = 2131230791;
-			
-			// aapt resource value: 0x7f080048
-			public const int hockeyapp_crash_dialog_message = 2131230792;
-			
 			// aapt resource value: 0x7f080049
-			public const int hockeyapp_crash_dialog_negative_button = 2131230793;
+			public const int hockeyapp_crash_dialog_app_name_fallback = 2131230793;
 			
 			// aapt resource value: 0x7f08004a
-			public const int hockeyapp_crash_dialog_neutral_button = 2131230794;
+			public const int hockeyapp_crash_dialog_message = 2131230794;
 			
 			// aapt resource value: 0x7f08004b
-			public const int hockeyapp_crash_dialog_positive_button = 2131230795;
+			public const int hockeyapp_crash_dialog_negative_button = 2131230795;
 			
 			// aapt resource value: 0x7f08004c
-			public const int hockeyapp_crash_dialog_title = 2131230796;
+			public const int hockeyapp_crash_dialog_neutral_button = 2131230796;
 			
 			// aapt resource value: 0x7f08004d
-			public const int hockeyapp_dialog_error_message = 2131230797;
+			public const int hockeyapp_crash_dialog_positive_button = 2131230797;
 			
 			// aapt resource value: 0x7f08004e
-			public const int hockeyapp_dialog_error_title = 2131230798;
+			public const int hockeyapp_crash_dialog_title = 2131230798;
 			
 			// aapt resource value: 0x7f08004f
-			public const int hockeyapp_dialog_negative_button = 2131230799;
+			public const int hockeyapp_dialog_error_message = 2131230799;
 			
 			// aapt resource value: 0x7f080050
-			public const int hockeyapp_dialog_positive_button = 2131230800;
+			public const int hockeyapp_dialog_error_title = 2131230800;
 			
 			// aapt resource value: 0x7f080051
-			public const int hockeyapp_download_failed_dialog_message = 2131230801;
+			public const int hockeyapp_dialog_negative_button = 2131230801;
 			
 			// aapt resource value: 0x7f080052
-			public const int hockeyapp_download_failed_dialog_negative_button = 2131230802;
+			public const int hockeyapp_dialog_positive_button = 2131230802;
 			
 			// aapt resource value: 0x7f080053
-			public const int hockeyapp_download_failed_dialog_positive_button = 2131230803;
+			public const int hockeyapp_download_failed_dialog_message = 2131230803;
 			
 			// aapt resource value: 0x7f080054
-			public const int hockeyapp_download_failed_dialog_title = 2131230804;
+			public const int hockeyapp_download_failed_dialog_negative_button = 2131230804;
 			
 			// aapt resource value: 0x7f080055
-			public const int hockeyapp_error_no_network_message = 2131230805;
+			public const int hockeyapp_download_failed_dialog_positive_button = 2131230805;
 			
 			// aapt resource value: 0x7f080056
-			public const int hockeyapp_expiry_info_text = 2131230806;
+			public const int hockeyapp_download_failed_dialog_title = 2131230806;
 			
 			// aapt resource value: 0x7f080057
-			public const int hockeyapp_expiry_info_title = 2131230807;
+			public const int hockeyapp_error_no_network_message = 2131230807;
 			
 			// aapt resource value: 0x7f080058
-			public const int hockeyapp_feedback_attach_file = 2131230808;
+			public const int hockeyapp_expiry_info_text = 2131230808;
 			
 			// aapt resource value: 0x7f080059
-			public const int hockeyapp_feedback_attach_picture = 2131230809;
+			public const int hockeyapp_expiry_info_title = 2131230809;
 			
 			// aapt resource value: 0x7f08005a
-			public const int hockeyapp_feedback_attachment_button_text = 2131230810;
+			public const int hockeyapp_feedback_attach_file = 2131230810;
 			
 			// aapt resource value: 0x7f08005b
-			public const int hockeyapp_feedback_attachment_error = 2131230811;
+			public const int hockeyapp_feedback_attach_picture = 2131230811;
 			
 			// aapt resource value: 0x7f08005c
-			public const int hockeyapp_feedback_attachment_loading = 2131230812;
+			public const int hockeyapp_feedback_attachment_button_text = 2131230812;
 			
 			// aapt resource value: 0x7f08005d
-			public const int hockeyapp_feedback_email_hint = 2131230813;
+			public const int hockeyapp_feedback_attachment_error = 2131230813;
 			
 			// aapt resource value: 0x7f08005e
-			public const int hockeyapp_feedback_failed_text = 2131230814;
+			public const int hockeyapp_feedback_attachment_loading = 2131230814;
 			
 			// aapt resource value: 0x7f08005f
-			public const int hockeyapp_feedback_failed_title = 2131230815;
+			public const int hockeyapp_feedback_email_hint = 2131230815;
 			
 			// aapt resource value: 0x7f080060
-			public const int hockeyapp_feedback_fetching_feedback_text = 2131230816;
+			public const int hockeyapp_feedback_failed_text = 2131230816;
 			
 			// aapt resource value: 0x7f080061
-			public const int hockeyapp_feedback_generic_error = 2131230817;
+			public const int hockeyapp_feedback_failed_title = 2131230817;
 			
 			// aapt resource value: 0x7f080062
-			public const int hockeyapp_feedback_last_updated_text = 2131230818;
+			public const int hockeyapp_feedback_fetching_feedback_text = 2131230818;
 			
 			// aapt resource value: 0x7f080063
-			public const int hockeyapp_feedback_max_attachments_allowed = 2131230819;
+			public const int hockeyapp_feedback_generic_error = 2131230819;
 			
 			// aapt resource value: 0x7f080064
-			public const int hockeyapp_feedback_message_hint = 2131230820;
+			public const int hockeyapp_feedback_last_updated_text = 2131230820;
 			
 			// aapt resource value: 0x7f080065
-			public const int hockeyapp_feedback_name_hint = 2131230821;
+			public const int hockeyapp_feedback_max_attachments_allowed = 2131230821;
 			
 			// aapt resource value: 0x7f080066
-			public const int hockeyapp_feedback_refresh_button_text = 2131230822;
+			public const int hockeyapp_feedback_message_hint = 2131230822;
 			
 			// aapt resource value: 0x7f080067
-			public const int hockeyapp_feedback_response_button_text = 2131230823;
+			public const int hockeyapp_feedback_name_hint = 2131230823;
 			
 			// aapt resource value: 0x7f080068
-			public const int hockeyapp_feedback_select_file = 2131230824;
+			public const int hockeyapp_feedback_refresh_button_text = 2131230824;
 			
 			// aapt resource value: 0x7f080069
-			public const int hockeyapp_feedback_select_picture = 2131230825;
+			public const int hockeyapp_feedback_response_button_text = 2131230825;
 			
 			// aapt resource value: 0x7f08006a
-			public const int hockeyapp_feedback_send_button_text = 2131230826;
+			public const int hockeyapp_feedback_select_file = 2131230826;
 			
 			// aapt resource value: 0x7f08006b
-			public const int hockeyapp_feedback_send_generic_error = 2131230827;
+			public const int hockeyapp_feedback_select_picture = 2131230827;
 			
 			// aapt resource value: 0x7f08006c
-			public const int hockeyapp_feedback_send_network_error = 2131230828;
+			public const int hockeyapp_feedback_send_button_text = 2131230828;
 			
 			// aapt resource value: 0x7f08006d
-			public const int hockeyapp_feedback_sending_feedback_text = 2131230829;
+			public const int hockeyapp_feedback_send_generic_error = 2131230829;
 			
 			// aapt resource value: 0x7f08006e
-			public const int hockeyapp_feedback_subject_hint = 2131230830;
+			public const int hockeyapp_feedback_send_network_error = 2131230830;
 			
 			// aapt resource value: 0x7f08006f
-			public const int hockeyapp_feedback_title = 2131230831;
+			public const int hockeyapp_feedback_sending_feedback_text = 2131230831;
 			
 			// aapt resource value: 0x7f080070
-			public const int hockeyapp_feedback_validate_email_empty = 2131230832;
+			public const int hockeyapp_feedback_subject_hint = 2131230832;
 			
 			// aapt resource value: 0x7f080071
-			public const int hockeyapp_feedback_validate_email_error = 2131230833;
+			public const int hockeyapp_feedback_title = 2131230833;
 			
 			// aapt resource value: 0x7f080072
-			public const int hockeyapp_feedback_validate_name_error = 2131230834;
+			public const int hockeyapp_feedback_validate_email_empty = 2131230834;
 			
 			// aapt resource value: 0x7f080073
-			public const int hockeyapp_feedback_validate_subject_error = 2131230835;
+			public const int hockeyapp_feedback_validate_email_error = 2131230835;
 			
 			// aapt resource value: 0x7f080074
-			public const int hockeyapp_feedback_validate_text_error = 2131230836;
+			public const int hockeyapp_feedback_validate_name_error = 2131230836;
 			
 			// aapt resource value: 0x7f080075
-			public const int hockeyapp_login_email_hint = 2131230837;
+			public const int hockeyapp_feedback_validate_subject_error = 2131230837;
 			
 			// aapt resource value: 0x7f080076
-			public const int hockeyapp_login_headline_text = 2131230838;
+			public const int hockeyapp_feedback_validate_text_error = 2131230838;
 			
 			// aapt resource value: 0x7f080077
-			public const int hockeyapp_login_headline_text_email_only = 2131230839;
+			public const int hockeyapp_login_email_hint = 2131230839;
 			
 			// aapt resource value: 0x7f080078
-			public const int hockeyapp_login_login_button_text = 2131230840;
+			public const int hockeyapp_login_headline_text = 2131230840;
 			
 			// aapt resource value: 0x7f080079
-			public const int hockeyapp_login_missing_credentials_toast = 2131230841;
+			public const int hockeyapp_login_headline_text_email_only = 2131230841;
 			
 			// aapt resource value: 0x7f08007a
-			public const int hockeyapp_login_password_hint = 2131230842;
+			public const int hockeyapp_login_login_button_text = 2131230842;
 			
 			// aapt resource value: 0x7f08007b
-			public const int hockeyapp_paint_dialog_message = 2131230843;
+			public const int hockeyapp_login_missing_credentials_toast = 2131230843;
 			
 			// aapt resource value: 0x7f08007c
-			public const int hockeyapp_paint_dialog_negative_button = 2131230844;
+			public const int hockeyapp_login_password_hint = 2131230844;
 			
 			// aapt resource value: 0x7f08007d
-			public const int hockeyapp_paint_dialog_neutral_button = 2131230845;
+			public const int hockeyapp_paint_dialog_message = 2131230845;
 			
 			// aapt resource value: 0x7f08007e
-			public const int hockeyapp_paint_dialog_positive_button = 2131230846;
+			public const int hockeyapp_paint_dialog_negative_button = 2131230846;
 			
 			// aapt resource value: 0x7f08007f
-			public const int hockeyapp_paint_indicator_toast = 2131230847;
+			public const int hockeyapp_paint_dialog_neutral_button = 2131230847;
 			
 			// aapt resource value: 0x7f080080
-			public const int hockeyapp_paint_menu_clear = 2131230848;
+			public const int hockeyapp_paint_dialog_positive_button = 2131230848;
 			
 			// aapt resource value: 0x7f080081
-			public const int hockeyapp_paint_menu_save = 2131230849;
+			public const int hockeyapp_paint_indicator_toast = 2131230849;
 			
 			// aapt resource value: 0x7f080082
-			public const int hockeyapp_paint_menu_undo = 2131230850;
+			public const int hockeyapp_paint_menu_clear = 2131230850;
 			
 			// aapt resource value: 0x7f080083
-			public const int hockeyapp_permission_dialog_negative_button = 2131230851;
+			public const int hockeyapp_paint_menu_save = 2131230851;
 			
 			// aapt resource value: 0x7f080084
-			public const int hockeyapp_permission_dialog_positive_button = 2131230852;
+			public const int hockeyapp_paint_menu_undo = 2131230852;
 			
 			// aapt resource value: 0x7f080085
-			public const int hockeyapp_permission_update_message = 2131230853;
+			public const int hockeyapp_permission_dialog_negative_button = 2131230853;
 			
 			// aapt resource value: 0x7f080086
-			public const int hockeyapp_permission_update_title = 2131230854;
+			public const int hockeyapp_permission_dialog_positive_button = 2131230854;
 			
 			// aapt resource value: 0x7f080087
-			public const int hockeyapp_update_button = 2131230855;
+			public const int hockeyapp_permission_update_message = 2131230855;
 			
 			// aapt resource value: 0x7f080088
-			public const int hockeyapp_update_dialog_message = 2131230856;
+			public const int hockeyapp_permission_update_title = 2131230856;
 			
 			// aapt resource value: 0x7f080089
-			public const int hockeyapp_update_dialog_negative_button = 2131230857;
+			public const int hockeyapp_update_button = 2131230857;
 			
 			// aapt resource value: 0x7f08008a
-			public const int hockeyapp_update_dialog_positive_button = 2131230858;
+			public const int hockeyapp_update_dialog_message = 2131230858;
 			
 			// aapt resource value: 0x7f08008b
-			public const int hockeyapp_update_dialog_title = 2131230859;
+			public const int hockeyapp_update_dialog_negative_button = 2131230859;
 			
 			// aapt resource value: 0x7f08008c
-			public const int hockeyapp_update_mandatory_toast = 2131230860;
+			public const int hockeyapp_update_dialog_positive_button = 2131230860;
 			
 			// aapt resource value: 0x7f08008d
-			public const int hockeyapp_update_version_details_label = 2131230861;
+			public const int hockeyapp_update_dialog_title = 2131230861;
+			
+			// aapt resource value: 0x7f08008e
+			public const int hockeyapp_update_mandatory_toast = 2131230862;
+			
+			// aapt resource value: 0x7f08008f
+			public const int hockeyapp_update_version_details_label = 2131230863;
 			
 			// aapt resource value: 0x7f080045
 			public const int library_name = 2131230789;
@@ -11839,6 +13739,57 @@ namespace WpApp.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] ProgressWheel = new int[]
+			{
+					2130772307,
+					2130772308,
+					2130772309,
+					2130772310,
+					2130772311,
+					2130772312,
+					2130772313,
+					2130772314,
+					2130772315,
+					2130772316,
+					2130772317,
+					2130772318};
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahBarColor = 3;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahBarLength = 11;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahBarWidth = 10;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahCircleColor = 8;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahDelayMillis = 7;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahRadius = 9;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahRimColor = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRimWidth = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahSpinSpeed = 6;
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahText = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahTextColor = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahTextSize = 2;
 			
 			public static int[] RecyclerView = new int[]
 			{
