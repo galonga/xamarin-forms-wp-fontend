@@ -6,16 +6,22 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using WpApp.Views;
 using BottomBar.XamarinForms;
+using WpApp.ViewModels;
+using WpApp.Helpers.Tracking;
 
 namespace WpApp
 {
     public class App : Application
     {
         public static bool IsWindows10 { get; set; }
-        public App()
-        {
-            var bottomBarPage = new BottomBarPage();
-            bottomBarPage.BarBackgroundColor = Color.White;
+
+        public App(
+            Func<IBlogFeedViewModel> blogFeedViewModel,
+            IAppTracker tracker,
+            BottomBarPage mainPage
+        ){
+            
+            mainPage.BarBackgroundColor = Color.White;
 
 
             // You can only define the color for the active icon if you set the Bottombar to fixed mode
@@ -40,23 +46,23 @@ namespace WpApp
 
             var homePage = new BlogPage { Title = "Home", Icon = "ic_home.png" };
             homePage.SetTabColor(null);
-            bottomBarPage.Children.Add(homePage);
+            mainPage.Children.Add(homePage);
 
             var blogPage = new BlogPage { Title = "Blog", Icon = "ic_view_list.png" };
             blogPage.SetTabColor(Color.FromHex("#5D4037"));
-            bottomBarPage.Children.Add(blogPage);
+            mainPage.Children.Add(blogPage);
 
             var podcastPage = new BlogPage { Title = "Podcast", Icon = "ic_queue_music.png" };
             podcastPage.SetTabColor(Color.FromHex("#7B1FA2"));
-            bottomBarPage.Children.Add(podcastPage);
+            mainPage.Children.Add(podcastPage);
 
             var artistsPage = new BlogPage { Title = "Artists", Icon = "ic_people.png" };
             artistsPage.SetTabColor(Color.FromHex("#FF5252"));
-            bottomBarPage.Children.Add(artistsPage);
+            mainPage.Children.Add(artistsPage);
 
             var settingPage = new BlogPage { Title = "Settings", Icon = "ic_settings.png" };
             settingPage.SetTabColor(Color.FromHex("#FF9800"));
-            bottomBarPage.Children.Add(settingPage);
+            mainPage.Children.Add(settingPage);
 
 
             //for (int i = 0; i < tabTitles.Length; ++i) {
@@ -83,7 +89,7 @@ namespace WpApp
             //    bottomBarPage.Children.Add(tabPage);
             //}
 
-            MainPage = bottomBarPage;
+            MainPage = mainPage;
         }
 
         protected override void OnStart()

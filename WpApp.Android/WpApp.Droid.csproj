@@ -39,6 +39,7 @@
     <MonoDroidExtraArgs>
     </MonoDroidExtraArgs>
     <RunCodeAnalysis>false</RunCodeAnalysis>
+    <EnableProguard>true</EnableProguard>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -178,12 +179,6 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Maps">
       <HintPath>..\packages\Xamarin.Forms.Maps.2.3.3.193\lib\MonoAndroid10\Xamarin.Forms.Maps.dll</HintPath>
-    </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.1\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="ImageCircle.Forms.Plugin.Android">
-      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.1\lib\MonoAndroid10\ImageCircle.Forms.Plugin.Android.dll</HintPath>
     </Reference>
     <Reference Include="ReactiveUI">
       <HintPath>..\packages\reactiveui-core.7.2.0\lib\MonoAndroid403\ReactiveUI.dll</HintPath>

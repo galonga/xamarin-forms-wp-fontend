@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using WpApp.Models;
-using WpApp.ViewsModels;
+using WpApp.ViewModels;
 using Xamarin.Forms;
 
 namespace WpApp.Views
@@ -11,10 +11,10 @@ namespace WpApp.Views
             get { return BindingContext as PodcastViewModel; }
         }
 
-        public PodcastPage(MenuType item)
+        public PodcastPage()
         {
             InitializeComponent();
-            BindingContext = new PodcastViewModel(item);
+            //BindingContext = new PodcastViewModel();
 
             listView.ItemTapped += (sender, args) => {
                 if (listView.SelectedItem == null)
